@@ -16,4 +16,4 @@ I’ll usually add it on the site first, then update this catalog.
 
 ## Pull requests
 
-Fix typos anytime. For new patterns, an issue is usually better than a big PR — demos live on the site, not here.
+Fix typos anytime. For new patterns, an issue is usually better than a big PR - demos live on the site, not here.

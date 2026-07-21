@@ -7,7 +7,7 @@
 
 ## Overview
 
-Verification next steps is a trust UX pattern that pairs uncertain AI outputs with concrete verification actions—open the source document, check the system of record, or escalate to a human—so users know exactly how to validate before acting. Instead of a vague “verify this” warning, the interface offers operational next steps tied to the claim.
+Verification next steps is a trust UX pattern that pairs uncertain AI outputs with concrete verification actions-open the source document, check the system of record, or escalate to a human-so users know exactly how to validate before acting. Instead of a vague “verify this” warning, the interface offers operational next steps tied to the claim.
 
 ## Good for
 
