@@ -1,32 +1,32 @@
 # Error Recovery Strategies
 
 **Category:** [Agents](https://aiuxplayground.com/patterns/agents)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/error-recovery-strategies](https://aiuxplayground.com/pattern/error-recovery-strategies)
+**Demo:** [aiuxplayground.com/pattern/error-recovery-strategies](https://aiuxplayground.com/pattern/error-recovery-strategies)
 
 > Configurable retry/fallback patterns
 
-## What it is
+## Overview
 
 Error recovery strategies is an AI agent UX pattern that lets users configure how an agent responds to failures: retry counts, backoff timing, fallback actions, and escalation paths. The agent surfaces recovery attempts in real time so users can see it adapting, making autonomous operation more reliable in uncertain, failure-prone environments.
 
-## When to use
+## Good for
 
 Essential for autonomous agents, workflow automation, and systems where configurable error handling improves reliability and user trust.
 
-## When not to use
+## Skip it when
 
 - Simple, single-step tools where a failure just needs a plain error message and a manual retry button.
 - Actions with real-world side effects where automatic retry could duplicate an already-completed effect (like a payment).
 - Early-stage products where exposing granular retry configuration adds settings surface nobody will tune.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Silent infinite retries that burn time or budget with no visible cap or escalation.
 - Fallback actions that change behavior without telling the user a fallback was used.
 - Treating every failure the same way regardless of whether it is transient or permanent.
 - No final escalation path, leaving the agent stuck retrying forever after repeated failures.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -35,10 +35,6 @@ Essential for autonomous agents, workflow automation, and systems where configur
 | Zapier | Configurable retry rules and error paths reroute failed automation steps. |
 | Make (Integromat) | Error handlers define retry, ignore, or fallback routes per workflow module. |
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Error Recovery Strategies on AI UX Playground →](https://aiuxplayground.com/pattern/error-recovery-strategies)**
-
-Or browse all [Agents patterns](https://aiuxplayground.com/patterns/agents).
+[Error Recovery Strategies demo](https://aiuxplayground.com/pattern/error-recovery-strategies) · [more agents](https://aiuxplayground.com/patterns/agents)

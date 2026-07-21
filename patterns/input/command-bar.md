@@ -1,32 +1,32 @@
 # Command Bar
 
 **Category:** [Inputs](https://aiuxplayground.com/patterns/input)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/command-bar](https://aiuxplayground.com/pattern/command-bar)
+**Demo:** [aiuxplayground.com/pattern/command-bar](https://aiuxplayground.com/pattern/command-bar)
 
 > Jump to AI actions with a command palette
 
-## What it is
+## Overview
 
 Command bar (Cmd+K / Ctrl+K) is an AI UX pattern that opens a keyboard-first palette for prompts, actions, navigation, and model tools without leaving the current page. It gives power users fast access while keeping the main canvas calm.
 
-## When to use
+## Good for
 
 Perfect for productivity tools, development environments, and power-user applications where quick keyboard access to AI features improves workflow efficiency.
 
-## When not to use
+## Skip it when
 
 - Mobile-only products where keyboard shortcuts and palettes are awkward.
 - Simple apps with fewer than a handful of actions, where a visible button is clearer.
 - Audiences that never discover shortcut UX and get no on-screen hint.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Cmd+K with no empty-state hint or first-run tip, so the feature stays invisible.
 - Mixing unrelated navigation, settings, and destructive actions without grouping.
 - No fuzzy search, forcing users to remember exact command names.
 - Command bar and slash menu that diverge in available actions with no shared model.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -36,10 +36,6 @@ Perfect for productivity tools, development environments, and power-user applica
 | VS Code / GitHub Copilot | Command palette and inline AI invoke from the keyboard. |
 
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Command Bar on AI UX Playground →](https://aiuxplayground.com/pattern/command-bar)**
-
-Or browse all [Inputs patterns](https://aiuxplayground.com/patterns/input).
+[Command Bar demo](https://aiuxplayground.com/pattern/command-bar) · [more inputs](https://aiuxplayground.com/patterns/input)

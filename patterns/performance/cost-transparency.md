@@ -1,32 +1,32 @@
 # Cost Transparency
 
 **Category:** [Performance](https://aiuxplayground.com/patterns/performance)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/cost-transparency](https://aiuxplayground.com/pattern/cost-transparency)
+**Demo:** [aiuxplayground.com/pattern/cost-transparency](https://aiuxplayground.com/pattern/cost-transparency)
 
 > Show operation costs
 
-## What it is
+## Overview
 
 Cost transparency is an AI UX pattern that shows the price of an operation (tokens, credits, dollars, or rate-limit units) before or as the user runs it. Visible cost helps users choose models, depth, and tools without surprise bills or silent quota burn.
 
-## When to use
+## Good for
 
 Ideal for applications with usage-based pricing, credit systems, and platforms where cost awareness helps users manage spending and optimize usage.
 
-## When not to use
+## Skip it when
 
 - Flat unlimited consumer plans where showing micro-costs adds anxiety with no decision value.
 - Internal demos on company-paid keys where cost UI distracts from the task.
 - When estimates are so wrong that displaying them destroys trust.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Hiding cost until after a large agent run finishes.
 - Inconsistent units (credits vs dollars) across model picker and usage page.
 - “Free” labeling for actions that still burn shared team quotas.
 - No warning when a tool call will spend an order of magnitude more than a normal reply.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -35,10 +35,6 @@ Ideal for applications with usage-based pricing, credit systems, and platforms w
 | Perplexity / Claude Pro | Makes plan limits and upgraded modes legible at choice time. |
 | Cloud LLM gateways | Per-team budgets and cost estimates before high-spend agent jobs. |
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Cost Transparency on AI UX Playground →](https://aiuxplayground.com/pattern/cost-transparency)**
-
-Or browse all [Performance patterns](https://aiuxplayground.com/patterns/performance).
+[Cost Transparency demo](https://aiuxplayground.com/pattern/cost-transparency) · [more performance](https://aiuxplayground.com/patterns/performance)

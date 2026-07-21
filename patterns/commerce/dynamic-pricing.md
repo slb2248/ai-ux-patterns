@@ -1,15 +1,15 @@
 # Dynamic Pricing
 
 **Category:** [Commerce](https://aiuxplayground.com/patterns/commerce)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/dynamic-pricing](https://aiuxplayground.com/pattern/dynamic-pricing)
+**Demo:** [aiuxplayground.com/pattern/dynamic-pricing](https://aiuxplayground.com/pattern/dynamic-pricing)
 
 > AI-powered real-time price optimization
 
-## What it is
+## Overview
 
 Dynamic pricing is an AI interface design pattern that uses artificial intelligence to optimize product prices in real-time based on demand, inventory, competitor pricing, and market conditions. This UX pattern displays price adjustments transparently, showing users when prices change and why, with explanations like "high demand" or "limited stock." The AI analyzes multiple factors to determine optimal pricing that maximizes revenue while remaining competitive. For users, the pattern may show price history, best time to buy indicators, or price guarantees. This pattern is essential for e-commerce platforms, marketplaces, and services where pricing flexibility improves business outcomes.
 
-## When to use
+## Good for
 
 Perfect for e-commerce platforms, marketplaces, and services where AI-powered dynamic pricing optimizes revenue and competitiveness.
 
@@ -20,10 +20,6 @@ Perfect for e-commerce platforms, marketplaces, and services where AI-powered dy
 - Airlines
 - Hotel booking sites
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Dynamic Pricing on AI UX Playground →](https://aiuxplayground.com/pattern/dynamic-pricing)**
-
-Or browse all [Commerce patterns](https://aiuxplayground.com/patterns/commerce).
+[Dynamic Pricing demo](https://aiuxplayground.com/pattern/dynamic-pricing) · [more commerce](https://aiuxplayground.com/patterns/commerce)

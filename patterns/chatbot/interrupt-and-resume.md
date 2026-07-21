@@ -1,32 +1,32 @@
 # Interrupt and Resume
 
 **Category:** [Chatbot](https://aiuxplayground.com/patterns/chatbot)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/interrupt-and-resume](https://aiuxplayground.com/pattern/interrupt-and-resume)
+**Demo:** [aiuxplayground.com/pattern/interrupt-and-resume](https://aiuxplayground.com/pattern/interrupt-and-resume)
 
 > Stop mid-response and continue with context
 
-## What it is
+## Overview
 
 Interrupt and resume is an AI UX pattern that lets users stop generation or speech mid-turn and continue later with preserved context, what was said, what was cancelled, and where to pick up. It keeps conversations recoverable instead of forcing a full restart.
 
-## When to use
+## Good for
 
 Critical for voice assistants, long-form chat responses, and agentic chats where users need to redirect the model quickly without resetting the entire thread.
 
-## When not to use
+## Skip it when
 
 - Atomic transactions that cannot partially complete (prefer full cancel + undo).
 - Tiny answers that finish before an interrupt control is usable.
 - Batch jobs better served by pause/checkpoint than conversational interrupt.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Stop that discards the partial answer with no way to keep or edit it.
 - Resume that invents continuity the model no longer has in context.
 - No visible interrupted state. UI looks idle while a job still runs.
 - Voice interrupt that leaves the mic hot without a clear listening indicator.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -35,10 +35,6 @@ Critical for voice assistants, long-form chat responses, and agentic chats where
 | Voice assistants (Siri / Google / Alexa) | Barge-in to halt speech and issue a new or continued request. |
 | Coding agents | Cancel a run and resume from a checkpoint or revised instruction. |
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Interrupt and Resume on AI UX Playground →](https://aiuxplayground.com/pattern/interrupt-and-resume)**
-
-Or browse all [Chatbot patterns](https://aiuxplayground.com/patterns/chatbot).
+[Interrupt and Resume demo](https://aiuxplayground.com/pattern/interrupt-and-resume) · [more chatbot](https://aiuxplayground.com/patterns/chatbot)

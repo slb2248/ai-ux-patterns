@@ -1,32 +1,32 @@
 # Semantic Search
 
 **Category:** [Commerce](https://aiuxplayground.com/patterns/commerce)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/semantic-search](https://aiuxplayground.com/pattern/semantic-search)
+**Demo:** [aiuxplayground.com/pattern/semantic-search](https://aiuxplayground.com/pattern/semantic-search)
 
 > Retrieve items by meaning, not keywords
 
-## What it is
+## Overview
 
 Semantic search is an AI UX pattern that retrieves results by meaning (not only keyword match) so queries like “waterproof shell for rainy hikes” surface relevant items even without exact terms. Strong products still show why a result matched and let users tighten with filters.
 
-## When to use
+## Good for
 
 Essential for e-commerce platforms, content discovery applications, and knowledge bases where users search by intent and meaning rather than exact keywords.
 
-## When not to use
+## Skip it when
 
 - Tiny catalogs where keyword search already returns complete, exact sets.
 - Legal or SKU lookup that must match exact identifiers, not “close enough.”
 - Offline or privacy-hard clients that cannot embed or call a retrieval index.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Semantic results with no keyword fallback when users search an exact ID.
 - Opaque ranking with no filters, sort, or “match explanation.”
 - Quietly ignoring part of a natural-language query (size, budget, brand).
 - Mixing ads into the semantic set without labeling sponsorship.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -35,10 +35,6 @@ Essential for e-commerce platforms, content discovery applications, and knowledg
 | Etsy | Intent-friendly product search across messy handmade titles. |
 | Shopify storefront AI search | Store-scoped semantic product find with merchant filters. |
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Semantic Search on AI UX Playground →](https://aiuxplayground.com/pattern/semantic-search)**
-
-Or browse all [Commerce patterns](https://aiuxplayground.com/patterns/commerce).
+[Semantic Search demo](https://aiuxplayground.com/pattern/semantic-search) · [more commerce](https://aiuxplayground.com/patterns/commerce)

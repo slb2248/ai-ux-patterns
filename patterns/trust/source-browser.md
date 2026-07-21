@@ -1,32 +1,32 @@
 # Source Browser
 
 **Category:** [Trust](https://aiuxplayground.com/patterns/trust)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/source-browser](https://aiuxplayground.com/pattern/source-browser)
+**Demo:** [aiuxplayground.com/pattern/source-browser](https://aiuxplayground.com/pattern/source-browser)
 
 > Inspect source documents beside the answer
 
-## What it is
+## Overview
 
 Source browser is an AI UX pattern that shows the original documents or passages beside (or linked from) the generated answer so users can verify claims in context. Highlights map answer spans back to source excerpts, making RAG and research outputs auditable instead of black-box.
 
-## When to use
+## Good for
 
 Perfect for legal research tools, document analysis applications, and platforms where side-by-side source verification builds trust and enables fact-checking.
 
-## When not to use
+## Skip it when
 
 - Pure chat with no retrieval corpus, where a browser pane would be empty theater.
 - Mobile chat where a persistent dual pane destroys reading space; prefer a slide-over Sources view instead.
 - Creative generation tasks where “sources” would invent provenance.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Listing file names without showing the excerpt that grounded the claim.
 - Highlights that do not match the cited sentence, training users to distrust the panel.
 - Auto-opening a full-width browser that pushes the answer off-screen on every query.
 - No jump-to-passage link from an inline citation chip into the browser.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -35,10 +35,6 @@ Perfect for legal research tools, document analysis applications, and platforms 
 | Notion AI / enterprise RAG | Opens linked workspace pages or snippets that the answer drew from. |
 | Legal research platforms | Dual-pane reading of opinions or filings next to AI summaries. |
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Source Browser on AI UX Playground →](https://aiuxplayground.com/pattern/source-browser)**
-
-Or browse all [Trust patterns](https://aiuxplayground.com/patterns/trust).
+[Source Browser demo](https://aiuxplayground.com/pattern/source-browser) · [more trust](https://aiuxplayground.com/patterns/trust)

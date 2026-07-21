@@ -1,32 +1,32 @@
 # Confidence Score
 
 **Category:** [Trust](https://aiuxplayground.com/patterns/trust)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/confidence-score](https://aiuxplayground.com/pattern/confidence-score)
+**Demo:** [aiuxplayground.com/pattern/confidence-score](https://aiuxplayground.com/pattern/confidence-score)
 
 > Show how sure the model is about a claim
 
-## What it is
+## Overview
 
 Confidence score is an AI UX pattern that displays the model’s estimated certainty as a percentage, bar, or labeled level next to an answer. It helps users decide when to trust, verify, or escalate, and is especially useful in high-stakes domains where silent certainty is risky.
 
-## When to use
+## Good for
 
 Critical for medical, legal, financial, and other high-stakes applications where users need to assess the reliability of AI-generated information.
 
-## When not to use
+## Skip it when
 
 - Creative or open-ended generation where numeric confidence is poorly calibrated and can fake precision.
 - Consumer chat where users ignore scores and the UI cost outweighs the rare useful signal.
 - Surfaces that already use richer uncertainty patterns (ranges, alternatives, ask-to-confirm) that a single percentage would oversimplify.
 
-## Anti-patterns
+## Easy to get wrong
 
 - Showing 90%+ on almost every answer, training users to ignore the score.
 - A score with no guidance on what low confidence should trigger (verify, ask, or human review).
 - Confusing model-internal logits with human-interpretable reliability.
 - Using confidence as a substitute for citations or source links when claims need provenance.
 
-## How products use it
+## In the wild
 
 | Product | Implementation |
 |---------|----------------|
@@ -36,10 +36,6 @@ Critical for medical, legal, financial, and other high-stakes applications where
 | Enterprise RAG copilots | Shows low-confidence states when retrieval coverage is thin so users escalate. |
 
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Confidence Score on AI UX Playground →](https://aiuxplayground.com/pattern/confidence-score)**
-
-Or browse all [Trust patterns](https://aiuxplayground.com/patterns/trust).
+[Confidence Score demo](https://aiuxplayground.com/pattern/confidence-score) · [more trust](https://aiuxplayground.com/patterns/trust)

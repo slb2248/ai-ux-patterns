@@ -1,19 +1,19 @@
 # Contributing
 
-This catalog mirrors the public pattern directory on [AI UX Playground](https://aiuxplayground.com/patterns).
+This repo tracks the pattern list on [AI UX Playground](https://aiuxplayground.com/patterns).
 
 ## Suggest a pattern
 
-Open a GitHub Issue with:
+Open an issue and include:
 
-1. Pattern name
-2. Short description (1 sentence)
-3. Category (chatbot, agents, trust, etc.)
-4. Products that use it
-5. Optional: link to a screenshot or URL
+1. Name
+2. One-sentence description
+3. Category (chatbot, agents, trust, …)
+4. Products that ship it
+5. A link or screenshot if you have one
 
-We review suggestions and add approved patterns to the live site first, then sync this repo.
+I’ll usually add it on the site first, then update this catalog.
 
 ## Pull requests
 
-PRs for typos in catalog copy are welcome. New patterns should land on the site so demos stay the source of truth.
+Fix typos anytime. For new patterns, an issue is usually better than a big PR — demos live on the site, not here.

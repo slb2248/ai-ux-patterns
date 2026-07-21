@@ -1,15 +1,15 @@
 # Agent Versioning
 
 **Category:** [Agents](https://aiuxplayground.com/patterns/agents)  
-**Interactive demo:** [https://aiuxplayground.com/pattern/agent-versioning](https://aiuxplayground.com/pattern/agent-versioning)
+**Demo:** [aiuxplayground.com/pattern/agent-versioning](https://aiuxplayground.com/pattern/agent-versioning)
 
 > A/B test different agent configurations
 
-## What it is
+## Overview
 
 Agent versioning is an AI interface design pattern that enables users to create, manage, and A/B test different versions of agent configurations, prompts, or models. This UX pattern allows users to save agent configurations as versions, compare performance between versions, and gradually roll out new versions to subsets of users. Users can see side-by-side comparisons of how different versions handle the same tasks, with metrics showing which performs better. The pattern supports gradual rollout, rollback capabilities, and version history. This pattern is essential for iteratively improving agents, testing new approaches safely, and ensuring changes don't degrade performance.
 
-## When to use
+## Good for
 
 Ideal for agent development, production systems, and workflows where safely testing and comparing agent improvements is critical.
 
@@ -20,10 +20,6 @@ Ideal for agent development, production systems, and workflows where safely test
 - MLflow
 - Custom agent platforms
 
-## Try it live
+## On the site
 
-Interactive demo, screenshots, and full guidance on the site:
-
-**[Open Agent Versioning on AI UX Playground →](https://aiuxplayground.com/pattern/agent-versioning)**
-
-Or browse all [Agents patterns](https://aiuxplayground.com/patterns/agents).
+[Agent Versioning demo](https://aiuxplayground.com/pattern/agent-versioning) · [more agents](https://aiuxplayground.com/patterns/agents)
