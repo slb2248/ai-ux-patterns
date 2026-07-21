@@ -1,0 +1,2390 @@
+{
+  "name": "AI UX Patterns",
+  "description": "Curated directory of AI UX / AI design patterns. Interactive demos on AI UX Playground.",
+  "site": "https://aiuxplayground.com",
+  "patternsUrl": "https://aiuxplayground.com/patterns",
+  "twitter": "@aiuxplayground",
+  "updated": "2026-07-20",
+  "patternCount": 183,
+  "patterns": [
+    {
+      "id": "agent-marketplace",
+      "title": "Agent Marketplace",
+      "category": "agents",
+      "summary": "Browse and install pre-built agents",
+      "url": "https://aiuxplayground.com/pattern/agent-marketplace",
+      "examples": [
+        "Zapier",
+        "Make",
+        "n8n",
+        "Microsoft Power Automate"
+      ]
+    },
+    {
+      "id": "agent-orchestration",
+      "title": "Agent Orchestration",
+      "category": "agents",
+      "summary": "Visual flow for multiple agents",
+      "url": "https://aiuxplayground.com/pattern/agent-orchestration",
+      "examples": [
+        "LangGraph",
+        "CrewAI",
+        "AutoGPT",
+        "AgentGPT"
+      ]
+    },
+    {
+      "id": "agent-performance-metrics",
+      "title": "Agent Performance Metrics",
+      "category": "agents",
+      "summary": "Dashboard showing agent success rates",
+      "url": "https://aiuxplayground.com/pattern/agent-performance-metrics",
+      "examples": [
+        "LangSmith",
+        "Weights & Biases",
+        "MLflow",
+        "Neptune"
+      ]
+    },
+    {
+      "id": "agent-versioning",
+      "title": "Agent Versioning",
+      "category": "agents",
+      "summary": "A/B test different agent configurations",
+      "url": "https://aiuxplayground.com/pattern/agent-versioning",
+      "examples": [
+        "LangSmith",
+        "Weights & Biases",
+        "MLflow",
+        "Custom agent platforms"
+      ]
+    },
+    {
+      "id": "ambient-presence-displays",
+      "title": "Ambient Presence Displays",
+      "category": "agents",
+      "summary": "Low-attention signals for agent state",
+      "url": "https://aiuxplayground.com/pattern/ambient-presence-displays",
+      "examples": [
+        "Apple Watch Siri orb",
+        "macOS menu bar indicators",
+        "Tesla Autopilot graphics",
+        "Nest Hub ambient mode"
+      ]
+    },
+    {
+      "id": "approval-workflows",
+      "title": "Approval Workflows",
+      "category": "agents",
+      "summary": "Human approval gates",
+      "url": "https://aiuxplayground.com/pattern/approval-workflows",
+      "examples": [
+        "Microsoft Power Automate",
+        "Slack Workflow Builder",
+        "Asana",
+        "Jira"
+      ]
+    },
+    {
+      "id": "autonomous-mode-display",
+      "title": "Autonomous Mode Display",
+      "category": "agents",
+      "summary": "Persistent signal when agent runs unattended",
+      "url": "https://aiuxplayground.com/pattern/autonomous-mode-display",
+      "examples": [
+        "Cursor Agent badge",
+        "Tesla Autopilot indicator",
+        "macOS microphone indicator",
+        "iOS recording indicator"
+      ]
+    },
+    {
+      "id": "autonomy-budgets",
+      "title": "Autonomy Budgets",
+      "category": "agents",
+      "summary": "Time- or action-bounded unattended runs",
+      "url": "https://aiuxplayground.com/pattern/autonomy-budgets",
+      "examples": [
+        "Cursor Agent max iterations",
+        "Claude Code session caps",
+        "Devin work units",
+        "GitHub Actions job timeouts"
+      ]
+    },
+    {
+      "id": "blast-radius-visualization",
+      "title": "Blast Radius Visualization",
+      "category": "agents",
+      "summary": "Preview scope before agent executes",
+      "url": "https://aiuxplayground.com/pattern/blast-radius-visualization",
+      "examples": [
+        "Cursor Agent",
+        "Claude Code",
+        "GitHub Actions",
+        "Zapier"
+      ]
+    },
+    {
+      "id": "checkpoints-and-restore",
+      "title": "Checkpoints and Restore",
+      "category": "agents",
+      "summary": "Named snapshots with one-click restore",
+      "url": "https://aiuxplayground.com/pattern/checkpoints-and-restore",
+      "examples": [
+        "Cursor checkpoints",
+        "Figma version history",
+        "Google Docs version history",
+        "Notion page history"
+      ]
+    },
+    {
+      "id": "conditional-logic",
+      "title": "Conditional Logic & Branching",
+      "category": "agents",
+      "summary": "Branch workflows by conditions",
+      "url": "https://aiuxplayground.com/pattern/conditional-logic",
+      "examples": [
+        "Zapier",
+        "Make",
+        "n8n",
+        "IFTTT"
+      ]
+    },
+    {
+      "id": "context-portability",
+      "title": "Context Portability",
+      "category": "agents",
+      "summary": "Legible payloads across app boundaries",
+      "url": "https://aiuxplayground.com/pattern/context-portability",
+      "examples": [
+        "Model Context Protocol",
+        "ChatGPT Connectors",
+        "Zapier data mapping",
+        "Apple Shortcuts variables"
+      ]
+    },
+    {
+      "id": "error-recovery-strategies",
+      "title": "Error Recovery Strategies",
+      "category": "agents",
+      "summary": "Configurable retry/fallback patterns",
+      "url": "https://aiuxplayground.com/pattern/error-recovery-strategies",
+      "examples": [
+        "LangChain",
+        "AutoGPT",
+        "Zapier",
+        "Make"
+      ]
+    },
+    {
+      "id": "escalation-thresholds",
+      "title": "Escalation Thresholds",
+      "category": "agents",
+      "summary": "Auto-demote autonomy when risk crosses a line",
+      "url": "https://aiuxplayground.com/pattern/escalation-thresholds",
+      "examples": [
+        "Payment approval limits",
+        "Wire transfer thresholds",
+        "Bulk delete caps",
+        "Copilot policy gates"
+      ]
+    },
+    {
+      "id": "human-handoff",
+      "title": "Human Handoff",
+      "category": "agents",
+      "summary": "Escalating to humans",
+      "url": "https://aiuxplayground.com/pattern/human-handoff",
+      "examples": [
+        "Intercom",
+        "Zendesk",
+        "Drift",
+        "LivePerson"
+      ]
+    },
+    {
+      "id": "memory-manage",
+      "title": "Memory Management",
+      "category": "agents",
+      "summary": "Viewing what AI remembers",
+      "url": "https://aiuxplayground.com/pattern/memory-manage",
+      "examples": [
+        "ChatGPT Memory",
+        "Claude",
+        "Character.ai",
+        "Replika"
+      ]
+    },
+    {
+      "id": "multi-step-forms",
+      "title": "Multi-step Forms with AI",
+      "category": "agents",
+      "summary": "Adaptive progressive forms",
+      "url": "https://aiuxplayground.com/pattern/multi-step-forms",
+      "examples": [
+        "Typeform",
+        "Google Forms with AI",
+        "Jotform",
+        "SurveyMonkey"
+      ]
+    },
+    {
+      "id": "per-action-autonomy",
+      "title": "Per-Action Autonomy",
+      "category": "agents",
+      "summary": "Autonomy scoped per capability, not per app",
+      "url": "https://aiuxplayground.com/pattern/per-action-autonomy",
+      "examples": [
+        "Cursor auto-run allowlist",
+        "Claude Code tool allowlists",
+        "Zapier filters",
+        "GitHub branch protection rules"
+      ]
+    },
+    {
+      "id": "plan-execute",
+      "title": "Plan & Execute",
+      "category": "agents",
+      "summary": "Breaking goals into steps",
+      "url": "https://aiuxplayground.com/pattern/plan-execute",
+      "examples": [
+        "AutoGPT",
+        "AgentGPT",
+        "CrewAI",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "pre-task-cost-estimate",
+      "title": "Pre-Task Cost Estimate",
+      "category": "agents",
+      "summary": "Forecast tokens, dollars, and time before run",
+      "url": "https://aiuxplayground.com/pattern/pre-task-cost-estimate",
+      "examples": [
+        "Cursor Agent",
+        "Claude Code",
+        "Devin",
+        "OpenAI Assistants API"
+      ]
+    },
+    {
+      "id": "chain",
+      "title": "Prompt Chaining",
+      "category": "agents",
+      "summary": "Multi-step logic",
+      "url": "https://aiuxplayground.com/pattern/chain",
+      "examples": [
+        "LangChain",
+        "AutoGPT",
+        "AgentGPT",
+        "CrewAI"
+      ]
+    },
+    {
+      "id": "reversibility-marking",
+      "title": "Reversibility Marking",
+      "category": "agents",
+      "summary": "Label actions by how easily undone",
+      "url": "https://aiuxplayground.com/pattern/reversibility-marking",
+      "examples": [
+        "Cursor Agent",
+        "Claude Code",
+        "Linear AI",
+        "GitHub Copilot Workspace"
+      ]
+    },
+    {
+      "id": "sandbox-preview",
+      "title": "Sandbox Preview",
+      "category": "agents",
+      "summary": "Dry-run plan with explicit side effects before execute",
+      "url": "https://aiuxplayground.com/pattern/sandbox-preview",
+      "examples": [
+        "CI dry runs",
+        "Terraform plans",
+        "Email merge previews",
+        "Agent \u201cplan then act\u201d modes"
+      ]
+    },
+    {
+      "id": "scheduled-tasks",
+      "title": "Scheduled Tasks & Recurring Actions",
+      "category": "agents",
+      "summary": "Time-based automation triggers",
+      "url": "https://aiuxplayground.com/pattern/scheduled-tasks",
+      "examples": [
+        "Zapier",
+        "Make",
+        "GitHub Actions",
+        "Cron jobs with AI"
+      ]
+    },
+    {
+      "id": "correction",
+      "title": "Self-Correction",
+      "category": "agents",
+      "summary": "Agents fixing errors",
+      "url": "https://aiuxplayground.com/pattern/correction",
+      "examples": [
+        "Cursor",
+        "GitHub Copilot",
+        "AutoGPT",
+        "LangChain"
+      ]
+    },
+    {
+      "id": "suggest-confirm-execute",
+      "title": "Suggest / Confirm / Execute",
+      "category": "agents",
+      "summary": "Three autonomy modes for AI agents",
+      "url": "https://aiuxplayground.com/pattern/suggest-confirm-execute",
+      "examples": [
+        "Cursor Agent",
+        "GitHub Copilot Workspace",
+        "Claude Code",
+        "Devin"
+      ]
+    },
+    {
+      "id": "task-queue",
+      "title": "Task Queue",
+      "category": "agents",
+      "summary": "Visual queue of agent tasks",
+      "url": "https://aiuxplayground.com/pattern/task-queue",
+      "examples": [
+        "AutoGPT",
+        "LangChain",
+        "AgentGPT",
+        "CrewAI"
+      ]
+    },
+    {
+      "id": "time-delayed-execution",
+      "title": "Time-Delayed Execution",
+      "category": "agents",
+      "summary": "Cancelable countdown before high-impact actions",
+      "url": "https://aiuxplayground.com/pattern/time-delayed-execution",
+      "examples": [
+        "Gmail Undo Send",
+        "Slack Scheduled Send",
+        "Cursor Agent",
+        "Stripe Payments"
+      ]
+    },
+    {
+      "id": "tool-use",
+      "title": "Tool Use",
+      "category": "agents",
+      "summary": "Visualizing AI using external tools",
+      "url": "https://aiuxplayground.com/pattern/tool-use",
+      "examples": [
+        "ChatGPT Plugins",
+        "Claude",
+        "LangChain",
+        "AutoGPT"
+      ]
+    },
+    {
+      "id": "workflow-builder",
+      "title": "Workflow Builder",
+      "category": "agents",
+      "summary": "Visual drag-and-drop workflows",
+      "url": "https://aiuxplayground.com/pattern/workflow-builder",
+      "examples": [
+        "Zapier",
+        "Make (Integromat)",
+        "n8n",
+        "Microsoft Power Automate"
+      ]
+    },
+    {
+      "id": "activation-boundaries",
+      "title": "Activation Boundaries",
+      "category": "audio",
+      "summary": "Explicit starts and stops for always-on agents",
+      "url": "https://aiuxplayground.com/pattern/activation-boundaries",
+      "examples": [
+        "Apple Siri activation",
+        "Alexa wake word",
+        "macOS microphone indicator",
+        "Ring Always Home indicator"
+      ]
+    },
+    {
+      "id": "audio-enhancement",
+      "title": "Audio Enhancement",
+      "category": "audio",
+      "summary": "Noise reduction, clarity improvement",
+      "url": "https://aiuxplayground.com/pattern/audio-enhancement",
+      "examples": [
+        "Adobe Audition",
+        "Descript",
+        "Krisp",
+        "Otter.ai"
+      ]
+    },
+    {
+      "id": "audio-summarization",
+      "title": "Audio Summarization",
+      "category": "audio",
+      "summary": "Summarize long audio recordings",
+      "url": "https://aiuxplayground.com/pattern/audio-summarization",
+      "examples": [
+        "Otter.ai",
+        "Fireflies.ai",
+        "Descript",
+        "Rev"
+      ]
+    },
+    {
+      "id": "interruptibility",
+      "title": "Interruptibility",
+      "category": "audio",
+      "summary": "Single gesture to pause or cancel",
+      "url": "https://aiuxplayground.com/pattern/interruptibility",
+      "examples": [
+        "ChatGPT Voice interrupt",
+        "Siri tap to cancel",
+        "Alexa stop command",
+        "Apple AirPods touch gesture"
+      ]
+    },
+    {
+      "id": "live-transcript",
+      "title": "Live Transcript",
+      "category": "audio",
+      "summary": "Real-time text from audio",
+      "url": "https://aiuxplayground.com/pattern/live-transcript",
+      "examples": [
+        "Otter.ai",
+        "Zoom",
+        "Microsoft Teams",
+        "Google Meet"
+      ]
+    },
+    {
+      "id": "multi-user-awareness",
+      "title": "Multi-User Awareness",
+      "category": "audio",
+      "summary": "Identify speaker and scope to their permissions",
+      "url": "https://aiuxplayground.com/pattern/multi-user-awareness",
+      "examples": [
+        "Alexa voice profiles",
+        "Google Voice Match",
+        "Apple Home multi-user",
+        "Sonos Voice Control profiles"
+      ]
+    },
+    {
+      "id": "real-time-translation",
+      "title": "Real-time Translation",
+      "category": "audio",
+      "summary": "Live translation during voice conversations",
+      "url": "https://aiuxplayground.com/pattern/real-time-translation",
+      "examples": [
+        "Google Translate",
+        "Microsoft Translator",
+        "Zoom",
+        "Skype"
+      ]
+    },
+    {
+      "id": "voice-cloning",
+      "title": "Voice Cloning",
+      "category": "audio",
+      "summary": "Clone and use custom voices",
+      "url": "https://aiuxplayground.com/pattern/voice-cloning",
+      "examples": [
+        "ElevenLabs",
+        "Descript",
+        "Resemble.ai",
+        "Play.ht"
+      ]
+    },
+    {
+      "id": "voice-commands",
+      "title": "Voice Commands",
+      "category": "audio",
+      "summary": "Trigger actions via voice commands",
+      "url": "https://aiuxplayground.com/pattern/voice-commands",
+      "examples": [
+        "Siri",
+        "Google Assistant",
+        "Alexa",
+        "Cortana"
+      ]
+    },
+    {
+      "id": "voice-confirmation",
+      "title": "Voice Confirmation",
+      "category": "audio",
+      "summary": "Spoken approval for high-stakes voice actions",
+      "url": "https://aiuxplayground.com/pattern/voice-confirmation",
+      "examples": [
+        "Alexa voice-match purchasing",
+        "Siri banking confirmation",
+        "Google Assistant voice payments",
+        "Apple Pay voice re-auth"
+      ]
+    },
+    {
+      "id": "voice-visualizer",
+      "title": "Voice Visualizer",
+      "category": "audio",
+      "summary": "Feedback for voice mode",
+      "url": "https://aiuxplayground.com/pattern/voice-visualizer",
+      "examples": [
+        "Siri",
+        "Google Assistant",
+        "Alexa",
+        "Cortana"
+      ]
+    },
+    {
+      "id": "chat-artifact",
+      "title": "Chat Artifacts",
+      "category": "chatbot",
+      "summary": "Open generated docs and code in a side panel",
+      "url": "https://aiuxplayground.com/pattern/chat-artifact",
+      "examples": [
+        "Claude Artifacts",
+        "Cursor",
+        "Replit Agent",
+        "Notion AI"
+      ]
+    },
+    {
+      "id": "conversation-search",
+      "title": "Conversation History Search",
+      "category": "chatbot",
+      "summary": "Search through past conversations",
+      "url": "https://aiuxplayground.com/pattern/conversation-search",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Notion AI",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "conversation-tags",
+      "title": "Conversation Tags & Labels",
+      "category": "chatbot",
+      "summary": "Organize conversations with tags",
+      "url": "https://aiuxplayground.com/pattern/conversation-tags",
+      "examples": [
+        "Gmail",
+        "Notion",
+        "Obsidian",
+        "Roam Research"
+      ]
+    },
+    {
+      "id": "conversation-templates",
+      "title": "Conversation Templates",
+      "category": "chatbot",
+      "summary": "Save and reuse conversation starters",
+      "url": "https://aiuxplayground.com/pattern/conversation-templates",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Notion AI",
+        "Jasper"
+      ]
+    },
+    {
+      "id": "export-conversation",
+      "title": "Export Conversation",
+      "category": "chatbot",
+      "summary": "Export chats as PDF/Markdown/JSON",
+      "url": "https://aiuxplayground.com/pattern/export-conversation",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Notion",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "interrupt-and-resume",
+      "title": "Interrupt and Resume",
+      "category": "chatbot",
+      "summary": "Stop mid-response and continue with context",
+      "url": "https://aiuxplayground.com/pattern/interrupt-and-resume",
+      "examples": [
+        "ChatGPT Voice",
+        "Alexa",
+        "Siri",
+        "Google Assistant"
+      ]
+    },
+    {
+      "id": "memory-scope-toggle",
+      "title": "Memory Scope Toggle",
+      "category": "chatbot",
+      "summary": "Set memory persistence per message",
+      "url": "https://aiuxplayground.com/pattern/memory-scope-toggle",
+      "examples": [
+        "Claude Projects",
+        "ChatGPT Memory controls",
+        "Notion AI workspaces",
+        "Enterprise copilots"
+      ]
+    },
+    {
+      "id": "message-pinning",
+      "title": "Message Pinning",
+      "category": "chatbot",
+      "summary": "Pin important messages",
+      "url": "https://aiuxplayground.com/pattern/message-pinning",
+      "examples": [
+        "Discord",
+        "Slack",
+        "ChatGPT",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "regen-carousel",
+      "title": "Regeneration Carousel",
+      "category": "chatbot",
+      "summary": "Swipe bot responses",
+      "url": "https://aiuxplayground.com/pattern/regen-carousel",
+      "examples": [
+        "Gemini",
+        "ChatGPT",
+        "Claude",
+        "Jasper"
+      ]
+    },
+    {
+      "id": "repair-contract",
+      "title": "Repair Contract",
+      "category": "chatbot",
+      "summary": "Retry with explicit delta and constraints",
+      "url": "https://aiuxplayground.com/pattern/repair-contract",
+      "examples": [
+        "Developer copilots",
+        "AI writing tools",
+        "Support assistants",
+        "Research copilots"
+      ]
+    },
+    {
+      "id": "response-refinement",
+      "title": "Response Refinement",
+      "category": "chatbot",
+      "summary": "Modify AI responses with contextual actions",
+      "url": "https://aiuxplayground.com/pattern/response-refinement",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "thread-branch",
+      "title": "Thread Branching",
+      "category": "chatbot",
+      "summary": "Edit and fork chats",
+      "url": "https://aiuxplayground.com/pattern/thread-branch",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "GitHub Copilot Chat",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "title": "Human in the loop",
+      "category": "collab",
+      "summary": "Require human approval before AI acts",
+      "url": "https://aiuxplayground.com/pattern/human-in-the-loop",
+      "examples": [
+        "Copilot",
+        "GitHub Copilot",
+        "Microsoft 365",
+        "Gmail Smart Compose"
+      ]
+    },
+    {
+      "id": "inline-comment-thread",
+      "title": "Inline Comment Thread",
+      "category": "collab",
+      "summary": "Discuss selections",
+      "url": "https://aiuxplayground.com/pattern/inline-comment-thread",
+      "examples": [
+        "Notion",
+        "GitHub",
+        "Confluence",
+        "Medium"
+      ]
+    },
+    {
+      "id": "live-presence",
+      "title": "Live Presence",
+      "category": "collab",
+      "summary": "Who is here now",
+      "url": "https://aiuxplayground.com/pattern/live-presence",
+      "examples": [
+        "Figma",
+        "Notion",
+        "Google Docs",
+        "Linear"
+      ]
+    },
+    {
+      "id": "shared-session-link",
+      "title": "Shared Session Link",
+      "category": "collab",
+      "summary": "Shareable AI context",
+      "url": "https://aiuxplayground.com/pattern/shared-session-link",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Cursor",
+        "Replit"
+      ]
+    },
+    {
+      "id": "smart-diff",
+      "title": "Smart Diff",
+      "category": "collab",
+      "summary": "Highlight and review what the model changed",
+      "url": "https://aiuxplayground.com/pattern/smart-diff",
+      "examples": [
+        "GDocs",
+        "Notion",
+        "GitHub",
+        "Word"
+      ]
+    },
+    {
+      "id": "ai-customer-support",
+      "title": "AI-Powered Customer Support",
+      "category": "commerce",
+      "summary": "Proactive support suggestions",
+      "url": "https://aiuxplayground.com/pattern/ai-customer-support",
+      "examples": [
+        "Amazon",
+        "Zendesk",
+        "Intercom",
+        "Drift"
+      ]
+    },
+    {
+      "id": "dynamic-pricing",
+      "title": "Dynamic Pricing",
+      "category": "commerce",
+      "summary": "AI-powered real-time price optimization",
+      "url": "https://aiuxplayground.com/pattern/dynamic-pricing",
+      "examples": [
+        "Uber",
+        "Amazon",
+        "Airlines",
+        "Hotel booking sites"
+      ]
+    },
+    {
+      "id": "fraud-detection",
+      "title": "Fraud Alert",
+      "category": "commerce",
+      "summary": "Verify suspicious acts",
+      "url": "https://aiuxplayground.com/pattern/fraud-detection",
+      "examples": [
+        "Stripe",
+        "PayPal",
+        "Square",
+        "Banking apps"
+      ]
+    },
+    {
+      "id": "instant-buy",
+      "title": "Instant Buy",
+      "category": "commerce",
+      "summary": "One-click purchase from AI",
+      "url": "https://aiuxplayground.com/pattern/instant-buy",
+      "examples": [
+        "Perplexity",
+        "Amazon Rufus",
+        "Google Shopping",
+        "ChatGPT Plugins"
+      ]
+    },
+    {
+      "id": "inventory-prediction",
+      "title": "Inventory Prediction",
+      "category": "commerce",
+      "summary": "Predict stock needs based on trends",
+      "url": "https://aiuxplayground.com/pattern/inventory-prediction",
+      "examples": [
+        "Amazon",
+        "Shopify",
+        "Walmart",
+        "Inventory management software"
+      ]
+    },
+    {
+      "id": "nl-filter",
+      "title": "Natural Language Filter",
+      "category": "commerce",
+      "summary": "Turn natural language into editable filters",
+      "url": "https://aiuxplayground.com/pattern/nl-filter",
+      "examples": [
+        "Airbnb",
+        "Amazon",
+        "Etsy",
+        "Booking.com"
+      ]
+    },
+    {
+      "id": "personalized-checkout",
+      "title": "Personalized Checkout",
+      "category": "commerce",
+      "summary": "Custom checkout flow per user",
+      "url": "https://aiuxplayground.com/pattern/personalized-checkout",
+      "examples": [
+        "Amazon",
+        "Shopify",
+        "Stripe",
+        "PayPal"
+      ]
+    },
+    {
+      "id": "price-drop-alerts",
+      "title": "Price Drop Alerts",
+      "category": "commerce",
+      "summary": "Notify users of price changes",
+      "url": "https://aiuxplayground.com/pattern/price-drop-alerts",
+      "examples": [
+        "Amazon",
+        "Honey",
+        "CamelCamelCamel",
+        "Keepa"
+      ]
+    },
+    {
+      "id": "return-prediction",
+      "title": "Return Prediction",
+      "category": "commerce",
+      "summary": "Predict likelihood of returns",
+      "url": "https://aiuxplayground.com/pattern/return-prediction",
+      "examples": [
+        "Amazon",
+        "Zara",
+        "ASOS",
+        "E-commerce platforms"
+      ]
+    },
+    {
+      "id": "review-summary",
+      "title": "Review Summary",
+      "category": "commerce",
+      "summary": "Summarizing feedback",
+      "url": "https://aiuxplayground.com/pattern/review-summary",
+      "examples": [
+        "Amazon",
+        "Yelp",
+        "TripAdvisor",
+        "Best Buy"
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "title": "Semantic Search",
+      "category": "commerce",
+      "summary": "Retrieve items by meaning, not keywords",
+      "url": "https://aiuxplayground.com/pattern/semantic-search",
+      "examples": [
+        "Algolia",
+        "Amazon",
+        "Etsy",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "smart-bundles",
+      "title": "Smart Bundles",
+      "category": "commerce",
+      "summary": "Contextual upsell",
+      "url": "https://aiuxplayground.com/pattern/smart-bundles",
+      "examples": [
+        "Amazon",
+        "Shopify",
+        "Etsy",
+        "Target"
+      ]
+    },
+    {
+      "id": "comparison",
+      "title": "Smart Comparison",
+      "category": "commerce",
+      "summary": "Build dynamic product or option comparison tables",
+      "url": "https://aiuxplayground.com/pattern/comparison",
+      "examples": [
+        "G2",
+        "Capterra",
+        "Amazon",
+        "Best Buy"
+      ]
+    },
+    {
+      "id": "smart-fill",
+      "title": "Smart Form Fill",
+      "category": "commerce",
+      "summary": "Unstructured to structured",
+      "url": "https://aiuxplayground.com/pattern/smart-fill",
+      "examples": [
+        "Uber",
+        "Amazon",
+        "Shopify",
+        "Stripe"
+      ]
+    },
+    {
+      "id": "smart-recommendations",
+      "title": "Smart Recommendations",
+      "category": "commerce",
+      "summary": "Context-aware product suggestions",
+      "url": "https://aiuxplayground.com/pattern/smart-recommendations",
+      "examples": [
+        "Amazon",
+        "Netflix",
+        "Spotify",
+        "Shopify"
+      ]
+    },
+    {
+      "id": "visual-search",
+      "title": "Visual Search",
+      "category": "commerce",
+      "summary": "Find products or images from an uploaded photo",
+      "url": "https://aiuxplayground.com/pattern/visual-search",
+      "examples": [
+        "Google Lens",
+        "Pinterest",
+        "ASOS",
+        "Wayfair"
+      ]
+    },
+    {
+      "id": "background-removal",
+      "title": "Background Removal",
+      "category": "design",
+      "summary": "Automatic background removal/transparency",
+      "url": "https://aiuxplayground.com/pattern/background-removal",
+      "examples": [
+        "Remove.bg",
+        "Canva",
+        "Adobe Express",
+        "Photopea"
+      ]
+    },
+    {
+      "id": "color-palette-gen",
+      "title": "Color Palette Generator",
+      "category": "design",
+      "summary": "Generate color schemes from images/text",
+      "url": "https://aiuxplayground.com/pattern/color-palette-gen",
+      "examples": [
+        "Coolors",
+        "Adobe Color",
+        "Khroma",
+        "Canva"
+      ]
+    },
+    {
+      "id": "component-variants",
+      "title": "Component Variants",
+      "category": "design",
+      "summary": "Generate multiple UI variations",
+      "url": "https://aiuxplayground.com/pattern/component-variants",
+      "examples": [
+        "Figma AI",
+        "V0",
+        "Relume",
+        "Builder.io"
+      ]
+    },
+    {
+      "id": "image-upscaling",
+      "title": "Image Upscaling",
+      "category": "design",
+      "summary": "AI-powered resolution enhancement",
+      "url": "https://aiuxplayground.com/pattern/image-upscaling",
+      "examples": [
+        "Topaz Gigapixel",
+        "Upscayl",
+        "Real-ESRGAN",
+        "Waifu2x"
+      ]
+    },
+    {
+      "id": "inpainting",
+      "title": "In-painting",
+      "category": "design",
+      "summary": "Modify specific areas",
+      "url": "https://aiuxplayground.com/pattern/inpainting",
+      "examples": [
+        "Adobe Firefly",
+        "DALL-E 3",
+        "Stable Diffusion",
+        "Midjourney"
+      ]
+    },
+    {
+      "id": "infinite-canvas",
+      "title": "Infinite Canvas",
+      "category": "design",
+      "summary": "Spatial AI organization",
+      "url": "https://aiuxplayground.com/pattern/infinite-canvas",
+      "examples": [
+        "Miro AI",
+        "FigJam",
+        "Whimsical",
+        "Mural"
+      ]
+    },
+    {
+      "id": "object-removal",
+      "title": "Object Removal",
+      "category": "design",
+      "summary": "Remove unwanted objects from images",
+      "url": "https://aiuxplayground.com/pattern/object-removal",
+      "examples": [
+        "Adobe Photoshop",
+        "Snapseed",
+        "TouchRetouch",
+        "Pixelmator"
+      ]
+    },
+    {
+      "id": "prompt-ui",
+      "title": "Prompt to UI",
+      "category": "design",
+      "summary": "Generate editable UI from a text prompt",
+      "url": "https://aiuxplayground.com/pattern/prompt-ui",
+      "examples": [
+        "V0",
+        "Framer",
+        "Builder.io",
+        "Relume"
+      ]
+    },
+    {
+      "id": "style-interpolation",
+      "title": "Style Interpolation",
+      "category": "design",
+      "summary": "Blend between multiple styles",
+      "url": "https://aiuxplayground.com/pattern/style-interpolation",
+      "examples": [
+        "Midjourney",
+        "Stable Diffusion",
+        "Artbreeder",
+        "Runway ML"
+      ]
+    },
+    {
+      "id": "style-transfer",
+      "title": "Style Transfer",
+      "category": "design",
+      "summary": "Applying visual styles",
+      "url": "https://aiuxplayground.com/pattern/style-transfer",
+      "examples": [
+        "Magic Pattern",
+        "Figma AI",
+        "Relume",
+        "Builder.io"
+      ]
+    },
+    {
+      "id": "text-to-image-controls",
+      "title": "Text-to-Image with Advanced Controls",
+      "category": "design",
+      "summary": "Advanced generation controls",
+      "url": "https://aiuxplayground.com/pattern/text-to-image-controls",
+      "examples": [
+        "Stable Diffusion WebUI",
+        "Midjourney",
+        "DALL-E API",
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": "theme-gen",
+      "title": "Theme Generation",
+      "category": "design",
+      "summary": "Color system creation",
+      "url": "https://aiuxplayground.com/pattern/theme-gen",
+      "examples": [
+        "Coolors",
+        "Adobe Firefly",
+        "Khroma",
+        "Huemint"
+      ]
+    },
+    {
+      "id": "variation-grid",
+      "title": "Variation Picker",
+      "category": "design",
+      "summary": "Pick among side-by-side generated options",
+      "url": "https://aiuxplayground.com/pattern/variation-grid",
+      "examples": [
+        "Midjourney",
+        "DALL-E",
+        "Stable Diffusion",
+        "Adobe Firefly"
+      ]
+    },
+    {
+      "id": "context-menu",
+      "title": "AI Context Menu",
+      "category": "input",
+      "summary": "Actions on select",
+      "url": "https://aiuxplayground.com/pattern/context-menu",
+      "examples": [
+        "Arc",
+        "Chrome",
+        "Edge",
+        "Notion"
+      ]
+    },
+    {
+      "id": "batch-input-processing",
+      "title": "Batch Input Processing",
+      "category": "input",
+      "summary": "Process multiple inputs at once",
+      "url": "https://aiuxplayground.com/pattern/batch-input-processing",
+      "examples": [
+        "Image processing tools",
+        "Data analysis platforms",
+        "Document processors",
+        "Batch APIs"
+      ]
+    },
+    {
+      "id": "command-bar",
+      "title": "Command Bar",
+      "category": "input",
+      "summary": "Jump to AI actions with a command palette",
+      "url": "https://aiuxplayground.com/pattern/command-bar",
+      "examples": [
+        "Linear",
+        "Notion",
+        "Cursor",
+        "Raycast"
+      ]
+    },
+    {
+      "id": "context-chip-management",
+      "title": "Context Chip Management",
+      "category": "input",
+      "summary": "Adding context sources via menu with removable chips",
+      "url": "https://aiuxplayground.com/pattern/context-chip-management",
+      "examples": [
+        "ChatGPT Composer",
+        "Cursor",
+        "Notion AI",
+        "Claude"
+      ]
+    },
+    {
+      "id": "mention",
+      "title": "Context Mentions",
+      "category": "input",
+      "summary": "Reference files via @",
+      "url": "https://aiuxplayground.com/pattern/mention",
+      "examples": [
+        "Cursor",
+        "Notion AI",
+        "Slack",
+        "Linear"
+      ]
+    },
+    {
+      "id": "follow-up",
+      "title": "Dynamic Follow-ups",
+      "category": "input",
+      "summary": "Suggested questions",
+      "url": "https://aiuxplayground.com/pattern/follow-up",
+      "examples": [
+        "Bing",
+        "Google Bard",
+        "Perplexity",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "file-upload-preview",
+      "title": "File Upload with AI Preview",
+      "category": "input",
+      "summary": "Upload files with AI-generated previews",
+      "url": "https://aiuxplayground.com/pattern/file-upload-preview",
+      "examples": [
+        "Google Drive",
+        "Dropbox",
+        "Notion",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "follow-up-chips",
+      "title": "Follow-up Chips",
+      "category": "input",
+      "summary": "Suggested next turns",
+      "url": "https://aiuxplayground.com/pattern/follow-up-chips",
+      "examples": [
+        "Bing Chat",
+        "Google Bard",
+        "Perplexity",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "gesture-input",
+      "title": "Gesture Input",
+      "category": "input",
+      "summary": "Draw or gesture to trigger AI actions",
+      "url": "https://aiuxplayground.com/pattern/gesture-input",
+      "examples": [
+        "Apple Pencil",
+        "Samsung S Pen",
+        "Surface Pen",
+        "Creative apps"
+      ]
+    },
+    {
+      "id": "input-mode-toggle",
+      "title": "Input Mode Toggle",
+      "category": "input",
+      "summary": "Switch between text, voice, and dictation modes",
+      "url": "https://aiuxplayground.com/pattern/input-mode-toggle",
+      "examples": [
+        "ChatGPT Voice Mode",
+        "Google Gemini",
+        "Claude",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "magic-edit",
+      "title": "Magic Edit",
+      "category": "input",
+      "summary": "Transform selection",
+      "url": "https://aiuxplayground.com/pattern/magic-edit",
+      "examples": [
+        "Notion",
+        "Google Docs",
+        "Word",
+        "Grammarly"
+      ]
+    },
+    {
+      "id": "multimodal",
+      "title": "Multimodal Input",
+      "category": "input",
+      "summary": "Combine images, files, and text in one turn",
+      "url": "https://aiuxplayground.com/pattern/multimodal",
+      "examples": [
+        "Gemini",
+        "ChatGPT",
+        "Claude",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "persona-selector",
+      "title": "Persona Selector",
+      "category": "input",
+      "summary": "Change AI role",
+      "url": "https://aiuxplayground.com/pattern/persona-selector",
+      "examples": [
+        "Character.ai",
+        "ChatGPT",
+        "Claude",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "predictive-type",
+      "title": "Predictive Type",
+      "category": "input",
+      "summary": "Ghost text",
+      "url": "https://aiuxplayground.com/pattern/predictive-type",
+      "examples": [
+        "Gmail",
+        "Outlook",
+        "Apple Mail",
+        "Grammarly"
+      ]
+    },
+    {
+      "id": "empty-state",
+      "title": "Prompt Starters",
+      "category": "input",
+      "summary": "Example prompts on an empty chat screen",
+      "url": "https://aiuxplayground.com/pattern/empty-state",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Google Bard",
+        "Notion AI"
+      ]
+    },
+    {
+      "id": "templates",
+      "title": "Prompt Templates",
+      "category": "input",
+      "summary": "Starter prompts",
+      "url": "https://aiuxplayground.com/pattern/templates",
+      "examples": [
+        "Jasper",
+        "Copy.ai",
+        "ChatGPT",
+        "Notion AI"
+      ]
+    },
+    {
+      "id": "slash-command",
+      "title": "Slash Commands",
+      "category": "input",
+      "summary": "Quick actions via /",
+      "url": "https://aiuxplayground.com/pattern/slash-command",
+      "examples": [
+        "Slack",
+        "Midjourney",
+        "Discord",
+        "Notion"
+      ]
+    },
+    {
+      "id": "smart-autocomplete",
+      "title": "Smart Autocomplete",
+      "category": "input",
+      "summary": "Context-aware autocomplete beyond text",
+      "url": "https://aiuxplayground.com/pattern/smart-autocomplete",
+      "examples": [
+        "GitHub Copilot",
+        "Tabnine",
+        "IntelliSense",
+        "Gmail Smart Compose"
+      ]
+    },
+    {
+      "id": "tone-slider",
+      "title": "Tone Sliders",
+      "category": "input",
+      "summary": "Adjust style",
+      "url": "https://aiuxplayground.com/pattern/tone-slider",
+      "examples": [
+        "Bing",
+        "Jasper",
+        "Copy.ai",
+        "Writesonic"
+      ]
+    },
+    {
+      "id": "tool-switching",
+      "title": "Tool Switching in Composer",
+      "category": "input",
+      "summary": "Switch between AI capabilities within composer",
+      "url": "https://aiuxplayground.com/pattern/tool-switching",
+      "examples": [
+        "ChatGPT Composer",
+        "Claude",
+        "Perplexity",
+        "Google Gemini"
+      ]
+    },
+    {
+      "id": "voice-input",
+      "title": "Voice Input",
+      "category": "input",
+      "summary": "Speech-to-text with visual feedback",
+      "url": "https://aiuxplayground.com/pattern/voice-input",
+      "examples": [
+        "Siri",
+        "Google Assistant",
+        "Alexa",
+        "ChatGPT Voice"
+      ]
+    },
+    {
+      "id": "voice-to-action",
+      "title": "Voice-to-Action",
+      "category": "input",
+      "summary": "Voice commands that trigger specific actions",
+      "url": "https://aiuxplayground.com/pattern/voice-to-action",
+      "examples": [
+        "Siri Shortcuts",
+        "Google Assistant",
+        "Alexa Skills",
+        "Cortana"
+      ]
+    },
+    {
+      "id": "ai-capability-explorer",
+      "title": "AI Capability Explorer",
+      "category": "navigation",
+      "summary": "Interactive feature guide",
+      "url": "https://aiuxplayground.com/pattern/ai-capability-explorer",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "GitHub Copilot",
+        "Adobe Firefly"
+      ]
+    },
+    {
+      "id": "ai-command-history",
+      "title": "AI Command History",
+      "category": "navigation",
+      "summary": "Recent AI commands with quick replay",
+      "url": "https://aiuxplayground.com/pattern/ai-command-history",
+      "examples": [
+        "Terminal history",
+        "Command palettes",
+        "AI chat history",
+        "Automation tools"
+      ]
+    },
+    {
+      "id": "ai-feature-spotlight",
+      "title": "AI Feature Spotlight",
+      "category": "navigation",
+      "summary": "Highlight AI capabilities",
+      "url": "https://aiuxplayground.com/pattern/ai-feature-spotlight",
+      "examples": [
+        "Figma",
+        "Notion",
+        "Adobe Creative Cloud",
+        "Microsoft 365"
+      ]
+    },
+    {
+      "id": "ai-powered-search",
+      "title": "AI-Powered Search",
+      "category": "navigation",
+      "summary": "Semantic search across all features",
+      "url": "https://aiuxplayground.com/pattern/ai-powered-search",
+      "examples": [
+        "Linear",
+        "Notion",
+        "Figma",
+        "Slack"
+      ]
+    },
+    {
+      "id": "contextual-ai-suggestions",
+      "title": "Contextual AI Suggestions",
+      "category": "navigation",
+      "summary": "Task-based AI prompts",
+      "url": "https://aiuxplayground.com/pattern/contextual-ai-suggestions",
+      "examples": [
+        "Figma",
+        "Cursor",
+        "Notion",
+        "Linear"
+      ]
+    },
+    {
+      "id": "contextual-shortcuts",
+      "title": "Contextual Shortcuts",
+      "category": "navigation",
+      "summary": "Shortcuts that adapt to current task",
+      "url": "https://aiuxplayground.com/pattern/contextual-shortcuts",
+      "examples": [
+        "VS Code",
+        "Figma",
+        "Notion",
+        "Linear"
+      ]
+    },
+    {
+      "id": "feature-discovery-feed",
+      "title": "Feature Discovery Feed",
+      "category": "navigation",
+      "summary": "Personalized feed of AI features to try",
+      "url": "https://aiuxplayground.com/pattern/feature-discovery-feed",
+      "examples": [
+        "Figma",
+        "Notion",
+        "Adobe Creative Cloud",
+        "Microsoft 365"
+      ]
+    },
+    {
+      "id": "nudge",
+      "title": "Proactive Nudge",
+      "category": "navigation",
+      "summary": "Helpful hints",
+      "url": "https://aiuxplayground.com/pattern/nudge",
+      "examples": [
+        "Grammarly",
+        "Microsoft Word",
+        "Google Docs",
+        "Notion"
+      ]
+    },
+    {
+      "id": "smart-bookmarks",
+      "title": "Smart Bookmarks",
+      "category": "navigation",
+      "summary": "AI-suggested bookmarks based on usage",
+      "url": "https://aiuxplayground.com/pattern/smart-bookmarks",
+      "examples": [
+        "Browser bookmarks",
+        "Application shortcuts",
+        "Dashboard widgets",
+        "Quick access panels"
+      ]
+    },
+    {
+      "id": "smart-tooltips",
+      "title": "Smart Tooltips",
+      "category": "navigation",
+      "summary": "Progressive AI hints",
+      "url": "https://aiuxplayground.com/pattern/smart-tooltips",
+      "examples": [
+        "GitHub Copilot",
+        "Cursor",
+        "Notion",
+        "Figma"
+      ]
+    },
+    {
+      "id": "ai-personality-customization",
+      "title": "AI Personality Customization",
+      "category": "onboarding",
+      "summary": "Customize AI assistant personality",
+      "url": "https://aiuxplayground.com/pattern/ai-personality-customization",
+      "examples": [
+        "Character.ai",
+        "Replika",
+        "ChatGPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "ai-tips-tricks",
+      "title": "AI Tips & Tricks",
+      "category": "onboarding",
+      "summary": "Contextual AI guidance",
+      "url": "https://aiuxplayground.com/pattern/ai-tips-tricks",
+      "examples": [
+        "ChatGPT",
+        "GitHub Copilot",
+        "Notion AI",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "example-prompts-library",
+      "title": "Example Prompts Library",
+      "category": "onboarding",
+      "summary": "Curated prompt examples",
+      "url": "https://aiuxplayground.com/pattern/example-prompts-library",
+      "examples": [
+        "ChatGPT",
+        "Midjourney",
+        "DALL-E",
+        "Claude"
+      ]
+    },
+    {
+      "id": "first-success-flow",
+      "title": "First Success Flow",
+      "category": "onboarding",
+      "summary": "Guaranteed first successful AI interaction",
+      "url": "https://aiuxplayground.com/pattern/first-success-flow",
+      "examples": [
+        "ChatGPT",
+        "Midjourney",
+        "GitHub Copilot",
+        "AI writing tools"
+      ]
+    },
+    {
+      "id": "interactive-tutorials",
+      "title": "Interactive Tutorials",
+      "category": "onboarding",
+      "summary": "Step-by-step AI guides",
+      "url": "https://aiuxplayground.com/pattern/interactive-tutorials",
+      "examples": [
+        "Figma",
+        "Notion",
+        "Adobe Creative Cloud",
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "id": "learning-path-recommendations",
+      "title": "Learning Path Recommendations",
+      "category": "onboarding",
+      "summary": "Personalized learning paths",
+      "url": "https://aiuxplayground.com/pattern/learning-path-recommendations",
+      "examples": [
+        "Figma",
+        "Adobe Creative Cloud",
+        "Codecademy",
+        "Skillshare"
+      ]
+    },
+    {
+      "id": "onboarding-progress-tracking",
+      "title": "Onboarding Progress Tracking",
+      "category": "onboarding",
+      "summary": "Visual progress through onboarding",
+      "url": "https://aiuxplayground.com/pattern/onboarding-progress-tracking",
+      "examples": [
+        "Duolingo",
+        "Codecademy",
+        "Productivity apps",
+        "Gaming platforms"
+      ]
+    },
+    {
+      "id": "progressive-feature-unlock",
+      "title": "Progressive Feature Unlock",
+      "category": "onboarding",
+      "summary": "Gradual AI introduction",
+      "url": "https://aiuxplayground.com/pattern/progressive-feature-unlock",
+      "examples": [
+        "Figma",
+        "Adobe Creative Cloud",
+        "Notion",
+        "Microsoft 365"
+      ]
+    },
+    {
+      "id": "use-case-wizard",
+      "title": "Use Case Wizard",
+      "category": "onboarding",
+      "summary": "Guided setup based on user goals",
+      "url": "https://aiuxplayground.com/pattern/use-case-wizard",
+      "examples": [
+        "Enterprise software",
+        "AI platforms",
+        "Productivity tools",
+        "Development environments"
+      ]
+    },
+    {
+      "id": "auto-tag",
+      "title": "Auto Tagging",
+      "category": "output",
+      "summary": "AI metadata",
+      "url": "https://aiuxplayground.com/pattern/auto-tag",
+      "examples": [
+        "Notion",
+        "Confluence",
+        "Airtable",
+        "Contentful"
+      ]
+    },
+    {
+      "id": "conversation-summary",
+      "title": "Conversation Summary",
+      "category": "output",
+      "summary": "Auto-summarize long chats",
+      "url": "https://aiuxplayground.com/pattern/conversation-summary",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Notion AI",
+        "Slack"
+      ]
+    },
+    {
+      "id": "feedback-loops",
+      "title": "Feedback",
+      "category": "output",
+      "summary": "Collect thumbs and comments to improve answers",
+      "url": "https://aiuxplayground.com/pattern/feedback-loops",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Google Bard",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "gen-chart",
+      "title": "Generative Charts",
+      "category": "output",
+      "summary": "Text to viz",
+      "url": "https://aiuxplayground.com/pattern/gen-chart",
+      "examples": [
+        "Julius",
+        "Tableau",
+        "Power BI",
+        "Google Sheets"
+      ]
+    },
+    {
+      "id": "gen-ui",
+      "title": "Generative UI",
+      "category": "output",
+      "summary": "Render interactive UI components in the answer",
+      "url": "https://aiuxplayground.com/pattern/gen-ui",
+      "examples": [
+        "V0",
+        "Framer",
+        "Relume",
+        "Builder.io"
+      ]
+    },
+    {
+      "id": "lang-toggle",
+      "title": "Instant Translation",
+      "category": "output",
+      "summary": "Swap language",
+      "url": "https://aiuxplayground.com/pattern/lang-toggle",
+      "examples": [
+        "DeepL",
+        "Google Translate",
+        "ChatGPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "message-reactions",
+      "title": "Message Reactions",
+      "category": "output",
+      "summary": "Quick emoji reactions",
+      "url": "https://aiuxplayground.com/pattern/message-reactions",
+      "examples": [
+        "Discord",
+        "Slack",
+        "ChatGPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "output-analytics",
+      "title": "Output Analytics",
+      "category": "output",
+      "summary": "Track which outputs users prefer/use most",
+      "url": "https://aiuxplayground.com/pattern/output-analytics",
+      "examples": [
+        "ChatGPT",
+        "Analytics platforms",
+        "Team collaboration tools",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "id": "output-comparison-view",
+      "title": "Output Comparison View",
+      "category": "output",
+      "summary": "Side-by-side comparison of multiple outputs",
+      "url": "https://aiuxplayground.com/pattern/output-comparison-view",
+      "examples": [
+        "ChatGPT",
+        "GitHub Copilot",
+        "Midjourney",
+        "Design tools"
+      ]
+    },
+    {
+      "id": "output-format-selection",
+      "title": "Output Format Selection",
+      "category": "output",
+      "summary": "Choose output format (JSON, CSV, Markdown)",
+      "url": "https://aiuxplayground.com/pattern/output-format-selection",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Data analysis tools",
+        "API platforms"
+      ]
+    },
+    {
+      "id": "output-history",
+      "title": "Output History",
+      "category": "output",
+      "summary": "Browse and restore previous outputs",
+      "url": "https://aiuxplayground.com/pattern/output-history",
+      "examples": [
+        "ChatGPT",
+        "Midjourney",
+        "GitHub Copilot",
+        "Design tools"
+      ]
+    },
+    {
+      "id": "output-sharing",
+      "title": "Output Sharing",
+      "category": "output",
+      "summary": "Share outputs with permissions/links",
+      "url": "https://aiuxplayground.com/pattern/output-sharing",
+      "examples": [
+        "ChatGPT",
+        "Notion",
+        "Figma",
+        "Google Docs"
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "title": "Progressive Disclosure",
+      "category": "output",
+      "summary": "Gradually reveal complex information",
+      "url": "https://aiuxplayground.com/pattern/progressive-disclosure",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Perplexity",
+        "Google Bard"
+      ]
+    },
+    {
+      "id": "scroll-bottom",
+      "title": "Scroll to Bottom",
+      "category": "output",
+      "summary": "New message alert",
+      "url": "https://aiuxplayground.com/pattern/scroll-bottom",
+      "examples": [
+        "Discord",
+        "Slack",
+        "ChatGPT",
+        "Microsoft Teams"
+      ]
+    },
+    {
+      "id": "skeleton-loader",
+      "title": "Skeleton Screens",
+      "category": "output",
+      "summary": "Show content shape while loading",
+      "url": "https://aiuxplayground.com/pattern/skeleton-loader",
+      "examples": [
+        "Vercel",
+        "Next.js",
+        "Linear",
+        "Notion"
+      ]
+    },
+    {
+      "id": "smart-code",
+      "title": "Smart Code Blocks",
+      "category": "output",
+      "summary": "Interactive snippets",
+      "url": "https://aiuxplayground.com/pattern/smart-code",
+      "examples": [
+        "Cursor",
+        "Replit",
+        "GitHub Copilot",
+        "Codeium"
+      ]
+    },
+    {
+      "id": "streaming",
+      "title": "Streaming",
+      "category": "output",
+      "summary": "Show replies token-by-token as they generate",
+      "url": "https://aiuxplayground.com/pattern/streaming",
+      "examples": [
+        "ChatGPT",
+        "Claude",
+        "Google Bard",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "batch-processing-queue",
+      "title": "Batch Processing Queue",
+      "category": "performance",
+      "summary": "Queue multiple requests for efficiency",
+      "url": "https://aiuxplayground.com/pattern/batch-processing-queue",
+      "examples": [
+        "Image processing tools",
+        "Data analysis platforms",
+        "API batch endpoints",
+        "Automation tools"
+      ]
+    },
+    {
+      "id": "caching-indicators",
+      "title": "Caching Indicators",
+      "category": "performance",
+      "summary": "Show when cached results are used",
+      "url": "https://aiuxplayground.com/pattern/caching-indicators",
+      "examples": [
+        "Search engines",
+        "API platforms",
+        "Content delivery networks",
+        "AI platforms"
+      ]
+    },
+    {
+      "id": "cost-transparency",
+      "title": "Cost Transparency",
+      "category": "performance",
+      "summary": "Show operation costs",
+      "url": "https://aiuxplayground.com/pattern/cost-transparency",
+      "examples": [
+        "OpenAI API",
+        "Anthropic Console",
+        "Midjourney",
+        "Runway ML"
+      ]
+    },
+    {
+      "id": "cross-session-budget",
+      "title": "Cross-Session Budget",
+      "category": "performance",
+      "summary": "Spending caps that persist across chats and devices",
+      "url": "https://aiuxplayground.com/pattern/cross-session-budget",
+      "examples": [
+        "OpenAI monthly caps",
+        "Anthropic org budgets",
+        "GitHub Copilot seat limits",
+        "AWS organization budgets"
+      ]
+    },
+    {
+      "id": "hard-budget-ceilings",
+      "title": "Hard Budget Ceilings",
+      "category": "performance",
+      "summary": "Enforceable caps that stop the agent",
+      "url": "https://aiuxplayground.com/pattern/hard-budget-ceilings",
+      "examples": [
+        "OpenAI usage limits",
+        "AWS billing alarms",
+        "Anthropic spend caps",
+        "Vercel spend management"
+      ]
+    },
+    {
+      "id": "model-selection-ui",
+      "title": "Model Selection UI",
+      "category": "performance",
+      "summary": "Let users choose AI model (speed vs quality)",
+      "url": "https://aiuxplayground.com/pattern/model-selection-ui",
+      "examples": [
+        "OpenAI Playground",
+        "Anthropic Console",
+        "Hugging Face",
+        "AI API platforms"
+      ]
+    },
+    {
+      "id": "performance-optimization-tips",
+      "title": "Performance Optimization Tips",
+      "category": "performance",
+      "summary": "AI suggests ways to improve performance",
+      "url": "https://aiuxplayground.com/pattern/performance-optimization-tips",
+      "examples": [
+        "API platforms",
+        "Cloud services",
+        "Developer tools",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "id": "processing-time-estimates",
+      "title": "Processing Time Estimates",
+      "category": "performance",
+      "summary": "Expected wait times",
+      "url": "https://aiuxplayground.com/pattern/processing-time-estimates",
+      "examples": [
+        "Midjourney",
+        "DALL-E",
+        "Adobe Firefly",
+        "Claude"
+      ]
+    },
+    {
+      "id": "rate-limit-warnings",
+      "title": "Rate Limit Warnings",
+      "category": "performance",
+      "summary": "API limit alerts",
+      "url": "https://aiuxplayground.com/pattern/rate-limit-warnings",
+      "examples": [
+        "GitHub Copilot",
+        "OpenAI Playground",
+        "Anthropic Console",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "resource-usage-dashboard",
+      "title": "Resource Usage Dashboard",
+      "category": "performance",
+      "summary": "Visual dashboard of compute/memory usage",
+      "url": "https://aiuxplayground.com/pattern/resource-usage-dashboard",
+      "examples": [
+        "Cloud platforms",
+        "API management tools",
+        "Enterprise AI",
+        "Developer dashboards"
+      ]
+    },
+    {
+      "id": "running-meters",
+      "title": "Running Meters",
+      "category": "performance",
+      "summary": "Live token and cost counters during execution",
+      "url": "https://aiuxplayground.com/pattern/running-meters",
+      "examples": [
+        "Cursor token meter",
+        "Claude Code usage panel",
+        "OpenAI Playground meter",
+        "Vercel usage dashboard"
+      ]
+    },
+    {
+      "id": "token-usage-indicator",
+      "title": "Token Usage Indicator",
+      "category": "performance",
+      "summary": "API quota display",
+      "url": "https://aiuxplayground.com/pattern/token-usage-indicator",
+      "examples": [
+        "OpenAI Playground",
+        "Anthropic Console",
+        "GitHub Copilot",
+        "Cursor"
+      ]
+    },
+    {
+      "id": "agent-identity",
+      "title": "Agent Identity",
+      "category": "trust",
+      "summary": "Stable name, version, and capabilities per agent",
+      "url": "https://aiuxplayground.com/pattern/agent-identity",
+      "examples": [
+        "ChatGPT custom GPTs",
+        "Claude Projects",
+        "Microsoft Copilot Studio agents",
+        "OpenAI Assistants API"
+      ]
+    },
+    {
+      "id": "audit-trail",
+      "title": "Audit Trail",
+      "category": "trust",
+      "summary": "Complete log of AI decisions and data usage",
+      "url": "https://aiuxplayground.com/pattern/audit-trail",
+      "examples": [
+        "Enterprise AI platforms",
+        "Healthcare AI",
+        "Financial AI",
+        "Compliance tools"
+      ]
+    },
+    {
+      "id": "authentication-chains",
+      "title": "Authentication Chains",
+      "category": "trust",
+      "summary": "Legible identity trails across agent actions",
+      "url": "https://aiuxplayground.com/pattern/authentication-chains",
+      "examples": [
+        "OAuth delegation chains",
+        "Okta session trails",
+        "Google Workspace audit logs",
+        "AWS IAM role chaining"
+      ]
+    },
+    {
+      "id": "bias-detection",
+      "title": "Bias Detection",
+      "category": "trust",
+      "summary": "Flag potentially biased outputs",
+      "url": "https://aiuxplayground.com/pattern/bias-detection",
+      "examples": [
+        "Hugging Face",
+        "AI content moderation tools",
+        "Hiring platforms",
+        "Content generation tools"
+      ]
+    },
+    {
+      "id": "cot",
+      "title": "Chain of Thought",
+      "category": "trust",
+      "summary": "Reveal step-by-step reasoning behind an answer",
+      "url": "https://aiuxplayground.com/pattern/cot",
+      "examples": [
+        "O1",
+        "Wolfram Alpha",
+        "Math AI tools",
+        "Educational platforms"
+      ]
+    },
+    {
+      "id": "citation-hover",
+      "title": "Citation Tooltips",
+      "category": "trust",
+      "summary": "Hover for source",
+      "url": "https://aiuxplayground.com/pattern/citation-hover",
+      "examples": [
+        "Perplexity",
+        "Google Search",
+        "Bing Chat",
+        "Elicit"
+      ]
+    },
+    {
+      "id": "citations",
+      "title": "Citations",
+      "category": "trust",
+      "summary": "Attach verifiable sources to generated claims",
+      "url": "https://aiuxplayground.com/pattern/citations",
+      "examples": [
+        "Perplexity",
+        "Google Search",
+        "Bing Chat",
+        "Elicit"
+      ]
+    },
+    {
+      "id": "confidence-indicators",
+      "title": "Confidence Indicators",
+      "category": "trust",
+      "summary": "Visual confidence levels for outputs",
+      "url": "https://aiuxplayground.com/pattern/confidence-indicators",
+      "examples": [
+        "Watson",
+        "Google Search",
+        "Perplexity",
+        "Medical AI"
+      ]
+    },
+    {
+      "id": "confidence-score",
+      "title": "Confidence Score",
+      "category": "trust",
+      "summary": "Show how sure the model is about a claim",
+      "url": "https://aiuxplayground.com/pattern/confidence-score",
+      "examples": [
+        "Watson",
+        "Google Search",
+        "Medical AI tools",
+        "Legal research platforms"
+      ]
+    },
+    {
+      "id": "data-ownership",
+      "title": "Data Ownership & Control",
+      "category": "trust",
+      "summary": "User control over AI data usage",
+      "url": "https://aiuxplayground.com/pattern/data-ownership",
+      "examples": [
+        "ChatGPT Data Controls",
+        "Claude Privacy Settings",
+        "Google Account Data",
+        "Apple Privacy Dashboard"
+      ]
+    },
+    {
+      "id": "duration-bound-consent",
+      "title": "Duration-Bound Consent",
+      "category": "trust",
+      "summary": "Permissions that expire by default",
+      "url": "https://aiuxplayground.com/pattern/duration-bound-consent",
+      "examples": [
+        "1Password SSH agent timeouts",
+        "macOS screen-recording re-prompts",
+        "GitHub fine-grained tokens",
+        "AWS STS temporary credentials"
+      ]
+    },
+    {
+      "id": "fact-checking-indicators",
+      "title": "Fact-Checking Indicators",
+      "category": "trust",
+      "summary": "Real-time fact-checking status",
+      "url": "https://aiuxplayground.com/pattern/fact-checking-indicators",
+      "examples": [
+        "Perplexity",
+        "Google Search",
+        "Fact-checking tools",
+        "Research platforms"
+      ]
+    },
+    {
+      "id": "failure-disclosure",
+      "title": "Failure Disclosure",
+      "category": "trust",
+      "summary": "Honest signaling of AI limitations",
+      "url": "https://aiuxplayground.com/pattern/failure-disclosure",
+      "examples": [
+        "Perplexity",
+        "Claude",
+        "Cursor Agent",
+        "Anthropic API"
+      ]
+    },
+    {
+      "id": "granular-consent",
+      "title": "Granular Consent",
+      "category": "trust",
+      "summary": "Per-capability toggles, not bundled grants",
+      "url": "https://aiuxplayground.com/pattern/granular-consent",
+      "examples": [
+        "iOS photo picker",
+        "macOS privacy panes",
+        "Google Workspace add-on scopes",
+        "GitHub Apps fine-grained permissions"
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "title": "Knowledge Graph",
+      "category": "trust",
+      "summary": "Visualizing RAG",
+      "url": "https://aiuxplayground.com/pattern/knowledge-graph",
+      "examples": [
+        "Hebbia",
+        "Obsidian",
+        "Roam Research",
+        "LogSeq"
+      ]
+    },
+    {
+      "id": "permission-drift-indicator",
+      "title": "Permission Drift Indicator",
+      "category": "trust",
+      "summary": "Surface accumulated agent permissions",
+      "url": "https://aiuxplayground.com/pattern/permission-drift-indicator",
+      "examples": [
+        "Google Account Security",
+        "1Password Watchtower",
+        "GitHub Connected Apps",
+        "Apple Privacy Report"
+      ]
+    },
+    {
+      "id": "privacy-blur",
+      "title": "Privacy Filters",
+      "category": "trust",
+      "summary": "Masking PII",
+      "url": "https://aiuxplayground.com/pattern/privacy-blur",
+      "examples": [
+        "Glean",
+        "Enterprise search tools",
+        "Healthcare AI",
+        "Financial platforms"
+      ]
+    },
+    {
+      "id": "status-steps",
+      "title": "Progress Steps",
+      "category": "trust",
+      "summary": "Collapsible thinking and tool traces",
+      "url": "https://aiuxplayground.com/pattern/status-steps",
+      "examples": [
+        "Perplexity",
+        "ChatGPT",
+        "Google Bard",
+        "Claude"
+      ]
+    },
+    {
+      "id": "responsibility-attribution",
+      "title": "Responsibility Attribution",
+      "category": "trust",
+      "summary": "Trace which agent or human caused each action",
+      "url": "https://aiuxplayground.com/pattern/responsibility-attribution",
+      "examples": [
+        "Git Co-authored-by",
+        "GitHub commit trailers",
+        "Stripe Radar event logs",
+        "Kubernetes audit logs"
+      ]
+    },
+    {
+      "id": "retrieval-context-preview",
+      "title": "Retrieval Context Preview",
+      "category": "trust",
+      "summary": "Preview retrieved context before acting on the answer",
+      "url": "https://aiuxplayground.com/pattern/retrieval-context-preview",
+      "examples": [
+        "Perplexity",
+        "Glean",
+        "Notion AI",
+        "Enterprise search assistants"
+      ]
+    },
+    {
+      "id": "revocation-affordances",
+      "title": "Revocation Affordances",
+      "category": "trust",
+      "summary": "One-click revoke beside the grant",
+      "url": "https://aiuxplayground.com/pattern/revocation-affordances",
+      "examples": [
+        "Connected apps panels",
+        "Slack app management",
+        "Google Account permissions",
+        "GitHub PAT revoke"
+      ]
+    },
+    {
+      "id": "scope-disclosure",
+      "title": "Scope Disclosure",
+      "category": "trust",
+      "summary": "Plain-language agent permissions",
+      "url": "https://aiuxplayground.com/pattern/scope-disclosure",
+      "examples": [
+        "ChatGPT Connectors",
+        "Claude MCP",
+        "Google Workspace Add-ons",
+        "GitHub Apps"
+      ]
+    },
+    {
+      "id": "source-browser",
+      "title": "Source Browser",
+      "category": "trust",
+      "summary": "Inspect source documents beside the answer",
+      "url": "https://aiuxplayground.com/pattern/source-browser",
+      "examples": [
+        "ChatPDF",
+        "Legal research platforms",
+        "Document analysis tools",
+        "Research assistants"
+      ]
+    },
+    {
+      "id": "source-quality-scores",
+      "title": "Source Quality Scores",
+      "category": "trust",
+      "summary": "Rate source reliability",
+      "url": "https://aiuxplayground.com/pattern/source-quality-scores",
+      "examples": [
+        "Perplexity",
+        "Google Scholar",
+        "Research tools",
+        "Academic platforms"
+      ]
+    },
+    {
+      "id": "transparency-report",
+      "title": "Transparency Report",
+      "category": "trust",
+      "summary": "Periodic reports on AI behavior/accuracy",
+      "url": "https://aiuxplayground.com/pattern/transparency-report",
+      "examples": [
+        "OpenAI",
+        "Google AI",
+        "Microsoft AI",
+        "Enterprise AI platforms"
+      ]
+    },
+    {
+      "id": "verification-next-steps",
+      "title": "Verification Next Steps",
+      "category": "trust",
+      "summary": "Concrete actions to validate uncertain output",
+      "url": "https://aiuxplayground.com/pattern/verification-next-steps",
+      "examples": [
+        "Glean",
+        "Intercom Fin",
+        "Salesforce Einstein",
+        "Enterprise knowledge bots"
+      ]
+    }
+  ]
+}
