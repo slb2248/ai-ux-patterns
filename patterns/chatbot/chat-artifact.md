@@ -35,6 +35,16 @@ Perfect for AI coding assistants, document generation tools, and design applicat
 | Replit Agent | Generated apps run live in a preview pane alongside the agent conversation. |
 | Notion AI | Generated content is written directly into the document rather than staying in a chat bubble. |
 
+## Examples
+
+![Claude Artifacts showing an interactive calculator in a side panel alongside the conversation](../../assets/featured/chat-artifact/1.png)
+
+*Claude*
+
+![Output & Refinement example](../../assets/featured/chat-artifact/2.webp)
+
+*Output & Refinement*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

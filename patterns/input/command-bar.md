@@ -35,6 +35,12 @@ Perfect for productivity tools, development environments, and power-user applica
 | Linear / modern SaaS | Cmd+K navigation and actions, increasingly with AI entries. |
 | VS Code / GitHub Copilot | Command palette and inline AI invoke from the keyboard. |
 
+## Examples
+
+![command-bar pattern card](../../assets/featured/command-bar/1.jpg)
+
+*AI UX Playground*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

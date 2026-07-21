@@ -20,6 +20,16 @@ Essential for research tools, AI search engines, and knowledge applications wher
 - Bing Chat
 - Elicit
 
+## Examples
+
+![Google Search AI Overview showing citations with numbered markers and related source links in sidebar](../../assets/featured/citations/1.png)
+
+*Google Search*
+
+![Citations & Trust example](../../assets/featured/citations/2.webp)
+
+*Citations & Trust*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

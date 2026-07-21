@@ -20,6 +20,16 @@ Ideal for AI coding assistants, creative writing tools, and research application
 - GitHub Copilot Chat
 - Cursor
 
+## Examples
+
+![Output & Refinement example](../../assets/featured/thread-branch/1.webp)
+
+*Output & Refinement*
+
+![Output & Refinement example](../../assets/featured/thread-branch/2.webp)
+
+*Output & Refinement*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

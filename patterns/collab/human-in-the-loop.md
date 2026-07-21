@@ -35,6 +35,16 @@ Essential for email clients, code generation tools, and applications where human
 | ChatGPT | Agent and connector flows ask before sending email or taking external actions. |
 | Gemini | Approval cards and send gates for actions that leave the chat surface. |
 
+## Examples
+
+![Human in the Loop example](../../assets/featured/human-in-the-loop/1.webp)
+
+*Human in the Loop*
+
+![Human in the Loop example](../../assets/featured/human-in-the-loop/2.webp)
+
+*Human in the Loop*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

@@ -35,6 +35,16 @@ Perfect for AI shopping assistants, conversational commerce platforms, and disco
 | Google Shopping | AI-assisted product finding with merchant checkout routes. |
 | ChatGPT commerce plugins / apps | In-thread product cards that continue into pay and confirm flows. |
 
+## Examples
+
+![Shopping Tab & Instant Buy example](../../assets/featured/instant-buy/1.webp)
+
+*Shopping Tab & Instant Buy*
+
+![Shopping Tab & Instant Buy example](../../assets/featured/instant-buy/2.webp)
+
+*Shopping Tab & Instant Buy*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

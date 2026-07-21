@@ -35,6 +35,16 @@ Perfect for personal AI assistants, long-term agent relationships, and applicati
 | Perplexity | Search-history memory toggle with Max-tier Brain upsell. |
 | Gemini | Activity and personalization controls tied to Google account settings. |
 
+## Examples
+
+![ChatGPT Saved memories modal showing list of memories with search and sort functionality](../../assets/featured/memory-manage/1.png)
+
+*ChatGPT*
+
+![ChatGPT Saved memories history modal showing version history with restore functionality](../../assets/featured/memory-manage/2.png)
+
+*ChatGPT*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

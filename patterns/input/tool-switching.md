@@ -35,6 +35,16 @@ Essential for multi-capability AI assistants, developer tools, and creative plat
 | Perplexity | Primary mode chips (Search, Computer); + for uploads and connectors. |
 | Gemini | + menu leads with Drive; Deep research and creation tools in flyouts. |
 
+## Examples
+
+![Tool Switching in Composer example](../../assets/featured/tool-switching/1.webp)
+
+*Tool Switching in Composer*
+
+![Tool Switching in Composer example](../../assets/featured/tool-switching/2.webp)
+
+*Tool Switching in Composer*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:

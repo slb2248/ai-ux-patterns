@@ -35,6 +35,16 @@ Perfect for rapid prototyping tools, design systems, dashboard builders, and low
 | Vercel / AI SDK demos | Streams generative UI components tied to tool results. |
 | Cursor | Surfaces interactive diffs, plans, and structured agent artifacts beyond plain chat. |
 
+## Examples
+
+![Artifacts example](../../assets/featured/gen-ui/1.webp)
+
+*Artifacts*
+
+![Artifacts example](../../assets/featured/gen-ui/2.webp)
+
+*Artifacts*
+
 ## Try it live
 
 Interactive demo, screenshots, and full guidance on the site:
