@@ -35,11 +35,6 @@ Critical for medical, legal, financial, and other high-stakes applications where
 | Legal research tools | Pairs ranked relevance or confidence with links into primary documents. |
 | Enterprise RAG copilots | Shows low-confidence states when retrieval coverage is thin so users escalate. |
 
-## Examples
-
-![confidence-score pattern card](../../assets/featured/confidence-score/1.jpg)
-
-*AI UX Playground*
 
 ## Try it live
 

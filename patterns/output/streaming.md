@@ -20,11 +20,6 @@ Essential for all AI chat interfaces, text generation tools, and conversational 
 - Google Bard
 - Perplexity
 
-## Examples
-
-![streaming pattern card](../../assets/featured/streaming/1.jpg)
-
-*AI UX Playground*
 
 ## Try it live
 

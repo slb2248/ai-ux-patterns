@@ -20,11 +20,6 @@ Essential for AI agents, OAuth-based assistants, and connector ecosystems where 
 - GitHub Connected Apps
 - Apple Privacy Report
 
-## Examples
-
-![permission-drift-indicator pattern card](../../assets/featured/permission-drift-indicator/1.jpg)
-
-*AI UX Playground*
 
 ## Try it live
 
