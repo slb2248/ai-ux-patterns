@@ -18,7 +18,8 @@
         "Make",
         "n8n",
         "Microsoft Power Automate"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "agent-orchestration",
@@ -31,7 +32,8 @@
         "CrewAI",
         "AutoGPT",
         "AgentGPT"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "agent-performance-metrics",
@@ -44,7 +46,8 @@
         "Weights & Biases",
         "MLflow",
         "Neptune"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "agent-versioning",
@@ -57,7 +60,8 @@
         "Weights & Biases",
         "MLflow",
         "Custom agent platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ambient-presence-displays",
@@ -70,7 +74,8 @@
         "macOS menu bar indicators",
         "Tesla Autopilot graphics",
         "Nest Hub ambient mode"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "approval-workflows",
@@ -83,7 +88,8 @@
         "Slack Workflow Builder",
         "Asana",
         "Jira"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "autonomous-mode-display",
@@ -96,7 +102,8 @@
         "Tesla Autopilot indicator",
         "macOS microphone indicator",
         "iOS recording indicator"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "autonomy-budgets",
@@ -109,7 +116,8 @@
         "Claude Code session caps",
         "Devin work units",
         "GitHub Actions job timeouts"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "blast-radius-visualization",
@@ -122,7 +130,8 @@
         "Claude Code",
         "GitHub Actions",
         "Zapier"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "checkpoints-and-restore",
@@ -135,7 +144,8 @@
         "Figma version history",
         "Google Docs version history",
         "Notion page history"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "conditional-logic",
@@ -148,7 +158,8 @@
         "Make",
         "n8n",
         "IFTTT"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "context-portability",
@@ -161,7 +172,8 @@
         "ChatGPT Connectors",
         "Zapier data mapping",
         "Apple Shortcuts variables"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "error-recovery-strategies",
@@ -174,7 +186,8 @@
         "AutoGPT",
         "Zapier",
         "Make"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "escalation-thresholds",
@@ -187,7 +200,8 @@
         "Wire transfer thresholds",
         "Bulk delete caps",
         "Copilot policy gates"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "human-handoff",
@@ -200,7 +214,8 @@
         "Zendesk",
         "Drift",
         "LivePerson"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "memory-manage",
@@ -213,7 +228,8 @@
         "Claude",
         "Character.ai",
         "Replika"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "multi-step-forms",
@@ -226,7 +242,8 @@
         "Google Forms with AI",
         "Jotform",
         "SurveyMonkey"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "per-action-autonomy",
@@ -239,7 +256,8 @@
         "Claude Code tool allowlists",
         "Zapier filters",
         "GitHub branch protection rules"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "plan-execute",
@@ -252,7 +270,8 @@
         "AgentGPT",
         "CrewAI",
         "LangChain"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "pre-task-cost-estimate",
@@ -265,7 +284,8 @@
         "Claude Code",
         "Devin",
         "OpenAI Assistants API"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "chain",
@@ -278,7 +298,8 @@
         "AutoGPT",
         "AgentGPT",
         "CrewAI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "reversibility-marking",
@@ -291,7 +312,8 @@
         "Claude Code",
         "Linear AI",
         "GitHub Copilot Workspace"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "sandbox-preview",
@@ -304,7 +326,8 @@
         "Terraform plans",
         "Email merge previews",
         "Agent \u201cplan then act\u201d modes"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "scheduled-tasks",
@@ -317,7 +340,8 @@
         "Make",
         "GitHub Actions",
         "Cron jobs with AI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "correction",
@@ -330,7 +354,8 @@
         "GitHub Copilot",
         "AutoGPT",
         "LangChain"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "suggest-confirm-execute",
@@ -343,7 +368,8 @@
         "GitHub Copilot Workspace",
         "Claude Code",
         "Devin"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "task-queue",
@@ -356,7 +382,8 @@
         "LangChain",
         "AgentGPT",
         "CrewAI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "time-delayed-execution",
@@ -369,7 +396,8 @@
         "Slack Scheduled Send",
         "Cursor Agent",
         "Stripe Payments"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "tool-use",
@@ -382,7 +410,8 @@
         "Claude",
         "LangChain",
         "AutoGPT"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "workflow-builder",
@@ -395,7 +424,8 @@
         "Make (Integromat)",
         "n8n",
         "Microsoft Power Automate"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "activation-boundaries",
@@ -408,7 +438,8 @@
         "Alexa wake word",
         "macOS microphone indicator",
         "Ring Always Home indicator"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "audio-enhancement",
@@ -421,7 +452,8 @@
         "Descript",
         "Krisp",
         "Otter.ai"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "audio-summarization",
@@ -434,7 +466,8 @@
         "Fireflies.ai",
         "Descript",
         "Rev"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "interruptibility",
@@ -447,7 +480,8 @@
         "Siri tap to cancel",
         "Alexa stop command",
         "Apple AirPods touch gesture"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "live-transcript",
@@ -460,7 +494,8 @@
         "Zoom",
         "Microsoft Teams",
         "Google Meet"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "multi-user-awareness",
@@ -473,7 +508,8 @@
         "Google Voice Match",
         "Apple Home multi-user",
         "Sonos Voice Control profiles"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "real-time-translation",
@@ -486,7 +522,8 @@
         "Microsoft Translator",
         "Zoom",
         "Skype"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "voice-cloning",
@@ -499,7 +536,8 @@
         "Descript",
         "Resemble.ai",
         "Play.ht"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "voice-commands",
@@ -512,7 +550,8 @@
         "Google Assistant",
         "Alexa",
         "Cortana"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "voice-confirmation",
@@ -525,7 +564,8 @@
         "Siri banking confirmation",
         "Google Assistant voice payments",
         "Apple Pay voice re-auth"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "voice-visualizer",
@@ -538,7 +578,8 @@
         "Google Assistant",
         "Alexa",
         "Cortana"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "chat-artifact",
@@ -551,7 +592,8 @@
         "Cursor",
         "Replit Agent",
         "Notion AI"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "conversation-search",
@@ -564,7 +606,8 @@
         "Claude",
         "Notion AI",
         "Obsidian"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "conversation-tags",
@@ -577,7 +620,8 @@
         "Notion",
         "Obsidian",
         "Roam Research"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "conversation-templates",
@@ -590,7 +634,8 @@
         "Claude",
         "Notion AI",
         "Jasper"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "export-conversation",
@@ -603,7 +648,8 @@
         "Claude",
         "Notion",
         "Obsidian"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "interrupt-and-resume",
@@ -616,7 +662,8 @@
         "Alexa",
         "Siri",
         "Google Assistant"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "memory-scope-toggle",
@@ -629,7 +676,8 @@
         "ChatGPT Memory controls",
         "Notion AI workspaces",
         "Enterprise copilots"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "message-pinning",
@@ -642,7 +690,8 @@
         "Slack",
         "ChatGPT",
         "Microsoft Teams"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "regen-carousel",
@@ -655,7 +704,8 @@
         "ChatGPT",
         "Claude",
         "Jasper"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "repair-contract",
@@ -668,7 +718,8 @@
         "AI writing tools",
         "Support assistants",
         "Research copilots"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "response-refinement",
@@ -681,7 +732,8 @@
         "Claude",
         "Gemini",
         "Perplexity"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "thread-branch",
@@ -694,7 +746,8 @@
         "Claude",
         "GitHub Copilot Chat",
         "Cursor"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "human-in-the-loop",
@@ -707,7 +760,8 @@
         "GitHub Copilot",
         "Microsoft 365",
         "Gmail Smart Compose"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "inline-comment-thread",
@@ -720,7 +774,8 @@
         "GitHub",
         "Confluence",
         "Medium"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "live-presence",
@@ -733,7 +788,8 @@
         "Notion",
         "Google Docs",
         "Linear"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "shared-session-link",
@@ -746,7 +802,8 @@
         "Claude",
         "Cursor",
         "Replit"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-diff",
@@ -759,7 +816,8 @@
         "Notion",
         "GitHub",
         "Word"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-customer-support",
@@ -772,7 +830,8 @@
         "Zendesk",
         "Intercom",
         "Drift"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "dynamic-pricing",
@@ -785,7 +844,8 @@
         "Amazon",
         "Airlines",
         "Hotel booking sites"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "fraud-detection",
@@ -798,7 +858,8 @@
         "PayPal",
         "Square",
         "Banking apps"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "instant-buy",
@@ -811,7 +872,8 @@
         "Amazon Rufus",
         "Google Shopping",
         "ChatGPT Plugins"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "inventory-prediction",
@@ -824,7 +886,8 @@
         "Shopify",
         "Walmart",
         "Inventory management software"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "nl-filter",
@@ -837,7 +900,8 @@
         "Amazon",
         "Etsy",
         "Booking.com"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "personalized-checkout",
@@ -850,7 +914,8 @@
         "Shopify",
         "Stripe",
         "PayPal"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "price-drop-alerts",
@@ -863,7 +928,8 @@
         "Honey",
         "CamelCamelCamel",
         "Keepa"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "return-prediction",
@@ -876,7 +942,8 @@
         "Zara",
         "ASOS",
         "E-commerce platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "review-summary",
@@ -889,7 +956,8 @@
         "Yelp",
         "TripAdvisor",
         "Best Buy"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "semantic-search",
@@ -902,7 +970,8 @@
         "Amazon",
         "Etsy",
         "Shopify"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "smart-bundles",
@@ -915,7 +984,8 @@
         "Shopify",
         "Etsy",
         "Target"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "comparison",
@@ -928,7 +998,8 @@
         "Capterra",
         "Amazon",
         "Best Buy"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-fill",
@@ -941,7 +1012,8 @@
         "Amazon",
         "Shopify",
         "Stripe"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-recommendations",
@@ -954,7 +1026,8 @@
         "Netflix",
         "Spotify",
         "Shopify"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "visual-search",
@@ -967,7 +1040,8 @@
         "Pinterest",
         "ASOS",
         "Wayfair"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "background-removal",
@@ -980,7 +1054,8 @@
         "Canva",
         "Adobe Express",
         "Photopea"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "color-palette-gen",
@@ -993,7 +1068,8 @@
         "Adobe Color",
         "Khroma",
         "Canva"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "component-variants",
@@ -1006,7 +1082,8 @@
         "V0",
         "Relume",
         "Builder.io"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "image-upscaling",
@@ -1019,7 +1096,8 @@
         "Upscayl",
         "Real-ESRGAN",
         "Waifu2x"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "inpainting",
@@ -1032,7 +1110,8 @@
         "DALL-E 3",
         "Stable Diffusion",
         "Midjourney"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "infinite-canvas",
@@ -1045,7 +1124,8 @@
         "FigJam",
         "Whimsical",
         "Mural"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "object-removal",
@@ -1058,7 +1138,8 @@
         "Snapseed",
         "TouchRetouch",
         "Pixelmator"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "prompt-ui",
@@ -1071,7 +1152,8 @@
         "Framer",
         "Builder.io",
         "Relume"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "style-interpolation",
@@ -1084,7 +1166,8 @@
         "Stable Diffusion",
         "Artbreeder",
         "Runway ML"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "style-transfer",
@@ -1097,7 +1180,8 @@
         "Figma AI",
         "Relume",
         "Builder.io"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "text-to-image-controls",
@@ -1110,7 +1194,8 @@
         "Midjourney",
         "DALL-E API",
         "ComfyUI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "theme-gen",
@@ -1123,7 +1208,8 @@
         "Adobe Firefly",
         "Khroma",
         "Huemint"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "variation-grid",
@@ -1136,7 +1222,8 @@
         "DALL-E",
         "Stable Diffusion",
         "Adobe Firefly"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "context-menu",
@@ -1149,7 +1236,8 @@
         "Chrome",
         "Edge",
         "Notion"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "batch-input-processing",
@@ -1162,7 +1250,8 @@
         "Data analysis platforms",
         "Document processors",
         "Batch APIs"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "command-bar",
@@ -1175,7 +1264,8 @@
         "Notion",
         "Cursor",
         "Raycast"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "context-chip-management",
@@ -1188,7 +1278,8 @@
         "Cursor",
         "Notion AI",
         "Claude"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "mention",
@@ -1201,7 +1292,8 @@
         "Notion AI",
         "Slack",
         "Linear"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "follow-up",
@@ -1214,7 +1306,8 @@
         "Google Bard",
         "Perplexity",
         "ChatGPT"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "file-upload-preview",
@@ -1227,7 +1320,8 @@
         "Dropbox",
         "Notion",
         "ChatGPT"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "follow-up-chips",
@@ -1240,7 +1334,8 @@
         "Google Bard",
         "Perplexity",
         "ChatGPT"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "gesture-input",
@@ -1253,7 +1348,8 @@
         "Samsung S Pen",
         "Surface Pen",
         "Creative apps"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "input-mode-toggle",
@@ -1266,7 +1362,8 @@
         "Google Gemini",
         "Claude",
         "Perplexity"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "magic-edit",
@@ -1279,7 +1376,8 @@
         "Google Docs",
         "Word",
         "Grammarly"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "multimodal",
@@ -1292,7 +1390,8 @@
         "ChatGPT",
         "Claude",
         "Perplexity"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "persona-selector",
@@ -1305,7 +1404,8 @@
         "ChatGPT",
         "Claude",
         "Perplexity"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "predictive-type",
@@ -1318,7 +1418,8 @@
         "Outlook",
         "Apple Mail",
         "Grammarly"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "empty-state",
@@ -1331,7 +1432,8 @@
         "Claude",
         "Google Bard",
         "Notion AI"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "templates",
@@ -1344,7 +1446,8 @@
         "Copy.ai",
         "ChatGPT",
         "Notion AI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "slash-command",
@@ -1357,7 +1460,8 @@
         "Midjourney",
         "Discord",
         "Notion"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "smart-autocomplete",
@@ -1370,7 +1474,8 @@
         "Tabnine",
         "IntelliSense",
         "Gmail Smart Compose"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "tone-slider",
@@ -1383,7 +1488,8 @@
         "Jasper",
         "Copy.ai",
         "Writesonic"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "tool-switching",
@@ -1396,7 +1502,8 @@
         "Claude",
         "Perplexity",
         "Google Gemini"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "voice-input",
@@ -1409,7 +1516,8 @@
         "Google Assistant",
         "Alexa",
         "ChatGPT Voice"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "voice-to-action",
@@ -1422,7 +1530,8 @@
         "Google Assistant",
         "Alexa Skills",
         "Cortana"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-capability-explorer",
@@ -1435,7 +1544,8 @@
         "Claude",
         "GitHub Copilot",
         "Adobe Firefly"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-command-history",
@@ -1448,7 +1558,8 @@
         "Command palettes",
         "AI chat history",
         "Automation tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-feature-spotlight",
@@ -1461,7 +1572,8 @@
         "Notion",
         "Adobe Creative Cloud",
         "Microsoft 365"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-powered-search",
@@ -1474,7 +1586,8 @@
         "Notion",
         "Figma",
         "Slack"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "contextual-ai-suggestions",
@@ -1487,7 +1600,8 @@
         "Cursor",
         "Notion",
         "Linear"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "contextual-shortcuts",
@@ -1500,7 +1614,8 @@
         "Figma",
         "Notion",
         "Linear"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "feature-discovery-feed",
@@ -1513,7 +1628,8 @@
         "Notion",
         "Adobe Creative Cloud",
         "Microsoft 365"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "nudge",
@@ -1526,7 +1642,8 @@
         "Microsoft Word",
         "Google Docs",
         "Notion"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-bookmarks",
@@ -1539,7 +1656,8 @@
         "Application shortcuts",
         "Dashboard widgets",
         "Quick access panels"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-tooltips",
@@ -1552,7 +1670,8 @@
         "Cursor",
         "Notion",
         "Figma"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "ai-personality-customization",
@@ -1565,7 +1684,8 @@
         "Replika",
         "ChatGPT",
         "Claude"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "ai-tips-tricks",
@@ -1578,7 +1698,8 @@
         "GitHub Copilot",
         "Notion AI",
         "Cursor"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "example-prompts-library",
@@ -1591,7 +1712,8 @@
         "Midjourney",
         "DALL-E",
         "Claude"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "first-success-flow",
@@ -1604,7 +1726,8 @@
         "Midjourney",
         "GitHub Copilot",
         "AI writing tools"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "interactive-tutorials",
@@ -1617,7 +1740,8 @@
         "Notion",
         "Adobe Creative Cloud",
         "GitHub Copilot"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "learning-path-recommendations",
@@ -1630,7 +1754,8 @@
         "Adobe Creative Cloud",
         "Codecademy",
         "Skillshare"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "onboarding-progress-tracking",
@@ -1643,7 +1768,8 @@
         "Codecademy",
         "Productivity apps",
         "Gaming platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "progressive-feature-unlock",
@@ -1656,7 +1782,8 @@
         "Adobe Creative Cloud",
         "Notion",
         "Microsoft 365"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "use-case-wizard",
@@ -1669,7 +1796,8 @@
         "AI platforms",
         "Productivity tools",
         "Development environments"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "auto-tag",
@@ -1682,7 +1810,8 @@
         "Confluence",
         "Airtable",
         "Contentful"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "conversation-summary",
@@ -1695,7 +1824,8 @@
         "Claude",
         "Notion AI",
         "Slack"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "feedback-loops",
@@ -1708,7 +1838,8 @@
         "Claude",
         "Google Bard",
         "Perplexity"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "gen-chart",
@@ -1721,7 +1852,8 @@
         "Tableau",
         "Power BI",
         "Google Sheets"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "gen-ui",
@@ -1734,7 +1866,8 @@
         "Framer",
         "Relume",
         "Builder.io"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "lang-toggle",
@@ -1747,7 +1880,8 @@
         "Google Translate",
         "ChatGPT",
         "Claude"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "message-reactions",
@@ -1760,7 +1894,8 @@
         "Slack",
         "ChatGPT",
         "Claude"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "output-analytics",
@@ -1773,7 +1908,8 @@
         "Analytics platforms",
         "Team collaboration tools",
         "Enterprise AI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "output-comparison-view",
@@ -1786,7 +1922,8 @@
         "GitHub Copilot",
         "Midjourney",
         "Design tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "output-format-selection",
@@ -1799,7 +1936,8 @@
         "Claude",
         "Data analysis tools",
         "API platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "output-history",
@@ -1812,7 +1950,8 @@
         "Midjourney",
         "GitHub Copilot",
         "Design tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "output-sharing",
@@ -1825,7 +1964,8 @@
         "Notion",
         "Figma",
         "Google Docs"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "progressive-disclosure",
@@ -1838,7 +1978,8 @@
         "Claude",
         "Perplexity",
         "Google Bard"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "scroll-bottom",
@@ -1851,7 +1992,8 @@
         "Slack",
         "ChatGPT",
         "Microsoft Teams"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "skeleton-loader",
@@ -1864,7 +2006,8 @@
         "Next.js",
         "Linear",
         "Notion"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "smart-code",
@@ -1877,7 +2020,8 @@
         "Replit",
         "GitHub Copilot",
         "Codeium"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "streaming",
@@ -1890,7 +2034,8 @@
         "Claude",
         "Google Bard",
         "Perplexity"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "batch-processing-queue",
@@ -1903,7 +2048,8 @@
         "Data analysis platforms",
         "API batch endpoints",
         "Automation tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "caching-indicators",
@@ -1916,7 +2062,8 @@
         "API platforms",
         "Content delivery networks",
         "AI platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "cost-transparency",
@@ -1929,7 +2076,8 @@
         "Anthropic Console",
         "Midjourney",
         "Runway ML"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "cross-session-budget",
@@ -1942,7 +2090,8 @@
         "Anthropic org budgets",
         "GitHub Copilot seat limits",
         "AWS organization budgets"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "hard-budget-ceilings",
@@ -1955,7 +2104,8 @@
         "AWS billing alarms",
         "Anthropic spend caps",
         "Vercel spend management"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "model-selection-ui",
@@ -1968,7 +2118,8 @@
         "Anthropic Console",
         "Hugging Face",
         "AI API platforms"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "performance-optimization-tips",
@@ -1981,7 +2132,8 @@
         "Cloud services",
         "Developer tools",
         "Enterprise AI"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "processing-time-estimates",
@@ -1994,7 +2146,8 @@
         "DALL-E",
         "Adobe Firefly",
         "Claude"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "rate-limit-warnings",
@@ -2007,7 +2160,8 @@
         "OpenAI Playground",
         "Anthropic Console",
         "Cursor"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "resource-usage-dashboard",
@@ -2020,7 +2174,8 @@
         "API management tools",
         "Enterprise AI",
         "Developer dashboards"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "running-meters",
@@ -2033,7 +2188,8 @@
         "Claude Code usage panel",
         "OpenAI Playground meter",
         "Vercel usage dashboard"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "token-usage-indicator",
@@ -2046,7 +2202,8 @@
         "Anthropic Console",
         "GitHub Copilot",
         "Cursor"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "agent-identity",
@@ -2059,7 +2216,8 @@
         "Claude Projects",
         "Microsoft Copilot Studio agents",
         "OpenAI Assistants API"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "audit-trail",
@@ -2072,7 +2230,8 @@
         "Healthcare AI",
         "Financial AI",
         "Compliance tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "authentication-chains",
@@ -2085,7 +2244,8 @@
         "Okta session trails",
         "Google Workspace audit logs",
         "AWS IAM role chaining"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "bias-detection",
@@ -2098,7 +2258,8 @@
         "AI content moderation tools",
         "Hiring platforms",
         "Content generation tools"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "cot",
@@ -2111,7 +2272,8 @@
         "Wolfram Alpha",
         "Math AI tools",
         "Educational platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "citation-hover",
@@ -2124,7 +2286,8 @@
         "Google Search",
         "Bing Chat",
         "Elicit"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "citations",
@@ -2137,7 +2300,8 @@
         "Google Search",
         "Bing Chat",
         "Elicit"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "confidence-indicators",
@@ -2150,7 +2314,8 @@
         "Google Search",
         "Perplexity",
         "Medical AI"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "confidence-score",
@@ -2163,7 +2328,8 @@
         "Google Search",
         "Medical AI tools",
         "Legal research platforms"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "data-ownership",
@@ -2176,7 +2342,8 @@
         "Claude Privacy Settings",
         "Google Account Data",
         "Apple Privacy Dashboard"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "duration-bound-consent",
@@ -2189,7 +2356,8 @@
         "macOS screen-recording re-prompts",
         "GitHub fine-grained tokens",
         "AWS STS temporary credentials"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "fact-checking-indicators",
@@ -2202,7 +2370,8 @@
         "Google Search",
         "Fact-checking tools",
         "Research platforms"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "failure-disclosure",
@@ -2215,7 +2384,8 @@
         "Claude",
         "Cursor Agent",
         "Anthropic API"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "granular-consent",
@@ -2228,7 +2398,8 @@
         "macOS privacy panes",
         "Google Workspace add-on scopes",
         "GitHub Apps fine-grained permissions"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "knowledge-graph",
@@ -2241,7 +2412,8 @@
         "Obsidian",
         "Roam Research",
         "LogSeq"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "permission-drift-indicator",
@@ -2254,7 +2426,8 @@
         "1Password Watchtower",
         "GitHub Connected Apps",
         "Apple Privacy Report"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "privacy-blur",
@@ -2267,7 +2440,8 @@
         "Enterprise search tools",
         "Healthcare AI",
         "Financial platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "status-steps",
@@ -2280,7 +2454,8 @@
         "ChatGPT",
         "Google Bard",
         "Claude"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "responsibility-attribution",
@@ -2293,7 +2468,8 @@
         "GitHub commit trailers",
         "Stripe Radar event logs",
         "Kubernetes audit logs"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "retrieval-context-preview",
@@ -2306,7 +2482,8 @@
         "Glean",
         "Notion AI",
         "Enterprise search assistants"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "revocation-affordances",
@@ -2319,7 +2496,8 @@
         "Slack app management",
         "Google Account permissions",
         "GitHub PAT revoke"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "scope-disclosure",
@@ -2332,7 +2510,8 @@
         "Claude MCP",
         "Google Workspace Add-ons",
         "GitHub Apps"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "source-browser",
@@ -2345,7 +2524,8 @@
         "Legal research platforms",
         "Document analysis tools",
         "Research assistants"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "source-quality-scores",
@@ -2358,7 +2538,8 @@
         "Google Scholar",
         "Research tools",
         "Academic platforms"
-      ]
+      ],
+      "enriched": true
     },
     {
       "id": "transparency-report",
@@ -2371,7 +2552,8 @@
         "Google AI",
         "Microsoft AI",
         "Enterprise AI platforms"
-      ]
+      ],
+      "enriched": false
     },
     {
       "id": "verification-next-steps",
@@ -2384,7 +2566,8 @@
         "Intercom Fin",
         "Salesforce Einstein",
         "Enterprise knowledge bots"
-      ]
+      ],
+      "enriched": false
     }
   ]
 }

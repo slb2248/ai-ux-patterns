@@ -1,16 +1,29 @@
 # Inline Comment Thread
 
-**Category:** Collab  
-**Live demo:** [https://aiuxplayground.com/pattern/inline-comment-thread](https://aiuxplayground.com/pattern/inline-comment-thread)  
-**Browse category:** [https://aiuxplayground.com/patterns/collab](https://aiuxplayground.com/patterns/collab)
+**Category:** [Collab](https://aiuxplayground.com/patterns/collab)  
+**Interactive demo:** [https://aiuxplayground.com/pattern/inline-comment-thread](https://aiuxplayground.com/pattern/inline-comment-thread)
 
 > Discuss selections
 
-**Seen in:** Notion, GitHub, Confluence, Medium
+## What it is
 
-**When to use:** Perfect for review flows on AI-generated PRDs, emails, code, and policies where stakeholders need precise, asynchronous discussion on fragments.
+Inline comment thread is an AI interface design pattern that lets users attach discussion to a specific span of AI or human-written text, image region, or structured field. This UX pattern anchors comments to selections so feedback stays tied to the exact content being debated, similar to document comments but optimized for fast-moving AI drafts. Threads can mention teammates, resolve when addressed, and optionally feed back into model refinement. It makes review of AI output a structured conversation instead of a parallel chat that loses context.
 
----
+## When to use
 
-Full interactive demo, screenshots, and guidance →  
-**[View on AI UX Playground](https://aiuxplayground.com/pattern/inline-comment-thread)**
+Perfect for review flows on AI-generated PRDs, emails, code, and policies where stakeholders need precise, asynchronous discussion on fragments.
+
+## Seen in
+
+- Notion
+- GitHub
+- Confluence
+- Medium
+
+## Try it live
+
+Interactive demo, screenshots, and full guidance on the site:
+
+**[Open Inline Comment Thread on AI UX Playground →](https://aiuxplayground.com/pattern/inline-comment-thread)**
+
+Or browse all [Collab patterns](https://aiuxplayground.com/patterns/collab).

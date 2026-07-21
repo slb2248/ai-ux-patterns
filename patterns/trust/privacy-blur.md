@@ -1,16 +1,29 @@
 # Privacy Filters
 
-**Category:** Trust  
-**Live demo:** [https://aiuxplayground.com/pattern/privacy-blur](https://aiuxplayground.com/pattern/privacy-blur)  
-**Browse category:** [https://aiuxplayground.com/patterns/trust](https://aiuxplayground.com/patterns/trust)
+**Category:** [Trust](https://aiuxplayground.com/patterns/trust)  
+**Interactive demo:** [https://aiuxplayground.com/pattern/privacy-blur](https://aiuxplayground.com/pattern/privacy-blur)
 
 > Masking PII
 
-**Seen in:** Glean, Enterprise search tools, Healthcare AI, Financial platforms
+## What it is
 
-**When to use:** Essential for enterprise applications, healthcare systems, and platforms handling sensitive data where automatic PII detection and masking protects user privacy.
+Privacy filters is an AI interface design pattern that automatically detects and masks personally identifiable information (PII) or sensitive data in AI outputs, displaying blurred, redacted, or anonymized versions. This UX pattern protects user privacy and complies with data protection regulations by preventing sensitive information from being displayed inappropriately. The AI identifies PII like names, email addresses, phone numbers, or financial information and applies visual masking or replacement. This pattern is essential for enterprise applications, healthcare systems, and any platform handling sensitive data where privacy protection is critical. It builds trust by demonstrating that the system actively protects user data.
 
----
+## When to use
 
-Full interactive demo, screenshots, and guidance →  
-**[View on AI UX Playground](https://aiuxplayground.com/pattern/privacy-blur)**
+Essential for enterprise applications, healthcare systems, and platforms handling sensitive data where automatic PII detection and masking protects user privacy.
+
+## Seen in
+
+- Glean
+- Enterprise search tools
+- Healthcare AI
+- Financial platforms
+
+## Try it live
+
+Interactive demo, screenshots, and full guidance on the site:
+
+**[Open Privacy Filters on AI UX Playground →](https://aiuxplayground.com/pattern/privacy-blur)**
+
+Or browse all [Trust patterns](https://aiuxplayground.com/patterns/trust).

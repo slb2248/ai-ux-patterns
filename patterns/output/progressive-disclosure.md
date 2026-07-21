@@ -1,16 +1,44 @@
 # Progressive Disclosure
 
-**Category:** Outputs  
-**Live demo:** [https://aiuxplayground.com/pattern/progressive-disclosure](https://aiuxplayground.com/pattern/progressive-disclosure)  
-**Browse category:** [https://aiuxplayground.com/patterns/output](https://aiuxplayground.com/patterns/output)
+**Category:** [Outputs](https://aiuxplayground.com/patterns/output)  
+**Interactive demo:** [https://aiuxplayground.com/pattern/progressive-disclosure](https://aiuxplayground.com/pattern/progressive-disclosure)
 
 > Gradually reveal complex information
 
-**Seen in:** ChatGPT, Claude, Perplexity, Google Bard
+## What it is
 
-**When to use:** Perfect for long-form content, research reports, and complex AI outputs where users need both high-level summaries and detailed information on demand.
+Progressive disclosure is an AI UX pattern that reveals complexity in stages, basic answer first, then sources, steps, tools, or advanced controls on demand. It keeps the default view calm while power users can open depth without drowning newcomers in settings and panels.
 
----
+## When to use
 
-Full interactive demo, screenshots, and guidance →  
-**[View on AI UX Playground](https://aiuxplayground.com/pattern/progressive-disclosure)**
+Perfect for long-form content, research reports, and complex AI outputs where users need both high-level summaries and detailed information on demand.
+
+## When not to use
+
+- Safety-critical details that must be visible before consent or execute (do not hide risk).
+- Expert-only consoles where collapsing essentials adds clicks without helping novices.
+- Tiny answers where “show more” is pure chrome with no extra content.
+
+## Anti-patterns
+
+- Hiding irreversible side effects behind Show more or Advanced.
+- Endless nested accordions that bury the primary answer.
+- Different disclosure rules on mobile vs desktop with no shared hierarchy.
+- Default-collapsed citations or errors that users need to trust the claim.
+
+## How products use it
+
+| Product | Implementation |
+|---------|----------------|
+| ChatGPT | Compact replies with expandable reasoning, sources, or tool details. |
+| Claude | Artifacts and extended thinking open from the thread when needed. |
+| Perplexity | Answer first; research steps and Links available as deeper layers. |
+| Gemini | Overview-style answers with expandable related content and tools. |
+
+## Try it live
+
+Interactive demo, screenshots, and full guidance on the site:
+
+**[Open Progressive Disclosure on AI UX Playground →](https://aiuxplayground.com/pattern/progressive-disclosure)**
+
+Or browse all [Outputs patterns](https://aiuxplayground.com/patterns/output).

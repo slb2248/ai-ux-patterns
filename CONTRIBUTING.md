@@ -16,4 +16,4 @@ We review suggestions and add approved patterns to the live site first, then syn
 
 ## Pull requests
 
-PRs that only tweak teaser copy in this repo are welcome for typos. New patterns should land on the site so demos stay the source of truth.
+PRs for typos in catalog copy are welcome. New patterns should land on the site so demos stay the source of truth.
